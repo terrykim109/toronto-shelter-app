@@ -10,13 +10,13 @@ const PACKAGE_ID = "21c83b32-d5a8-4106-a54f-010dbe49f6f2";
 
 const FSA_PATH = path.join(__dirname, "data", "toronto-fsa.json");
 const SHELTER_COORDS_PATH = path.join(__dirname, "data", "shelter-coords.json");
+const CLIENT_DIST = path.join(__dirname, "client", "dist");
 
 const torontoFsa = JSON.parse(fs.readFileSync(FSA_PATH, "utf8"));
 const shelterCoords = JSON.parse(fs.readFileSync(SHELTER_COORDS_PATH, "utf8"));
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static("public"));
 
 function normalizeFsa(postal) {
   if (!postal) return null;
@@ -159,6 +159,14 @@ app.get("/api/shelters", async (_req, res) => {
     res.status(500).json({ error: "Failed to fetch shelter data." });
   }
 });
+
+if (fs.existsSync(CLIENT_DIST)) {
+  app.use(express.static(CLIENT_DIST));
+  app.get("*", (req, res, next) => {
+    if (req.path.startsWith("/api/")) return next();
+    res.sendFile(path.join(CLIENT_DIST, "index.html"));
+  });
+}
 
 app.listen(HTTP_PORT, () => {
   console.log(`Server listening on port ${HTTP_PORT}`);
