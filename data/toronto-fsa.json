@@ -1,0 +1,512 @@
+{
+  "M3K": {
+    "lat": 43.739,
+    "lon": -79.4692,
+    "name": "Downsview East (CFB Toronto)"
+  },
+  "M4E": {
+    "lat": 43.6784,
+    "lon": -79.2941,
+    "name": "East Toronto (The Beaches)"
+  },
+  "M4J": {
+    "lat": 43.6872,
+    "lon": -79.3368,
+    "name": "East Toronto (The Danforth East)"
+  },
+  "M4K": {
+    "lat": 43.6803,
+    "lon": -79.3538,
+    "name": "East Toronto (The Danforth West / Riverdale)"
+  },
+  "M4L": {
+    "lat": 43.6693,
+    "lon": -79.3155,
+    "name": "East Toronto (India Bazaar / The Beaches West)"
+  },
+  "M4M": {
+    "lat": 43.6561,
+    "lon": -79.3406,
+    "name": "East Toronto (Studio District)"
+  },
+  "M4N": {
+    "lat": 43.7301,
+    "lon": -79.3935,
+    "name": "Central Toronto (Lawrence Park East)"
+  },
+  "M4P": {
+    "lat": 43.7135,
+    "lon": -79.3887,
+    "name": "Central Toronto (Davisville North)"
+  },
+  "M4R": {
+    "lat": 43.7143,
+    "lon": -79.4065,
+    "name": "Central Toronto (North Toronto West)"
+  },
+  "M4S": {
+    "lat": 43.702,
+    "lon": -79.3853,
+    "name": "Central Toronto (Davisville)"
+  },
+  "M4T": {
+    "lat": 43.6899,
+    "lon": -79.3853,
+    "name": "Central Toronto (Moore Park / Summerhill East)"
+  },
+  "M4V": {
+    "lat": 43.6861,
+    "lon": -79.4025,
+    "name": "Central Toronto (Summerhill West / Rathnelly / South Hill / Forest Hill SE / Deer Park)"
+  },
+  "M4W": {
+    "lat": 43.6827,
+    "lon": -79.373,
+    "name": "Downtown Toronto (Rosedale)"
+  },
+  "M4X": {
+    "lat": 43.6684,
+    "lon": -79.3689,
+    "name": "Downtown Toronto (St. James Town / Cabbagetown)"
+  },
+  "M4Y": {
+    "lat": 43.6656,
+    "lon": -79.383,
+    "name": "Downtown Toronto (Church and Wellesley)"
+  },
+  "M5A": {
+    "lat": 43.6555,
+    "lon": -79.3626,
+    "name": "Toronto"
+  },
+  "M5B": {
+    "lat": 43.6572,
+    "lon": -79.3783,
+    "name": "Downtown Toronto (Ryerson)"
+  },
+  "M5C": {
+    "lat": 43.6513,
+    "lon": -79.3756,
+    "name": "Downtown Toronto (St. James Park)"
+  },
+  "M5E": {
+    "lat": 43.6456,
+    "lon": -79.3754,
+    "name": "Downtown Toronto (Berczy Park)"
+  },
+  "M5G": {
+    "lat": 43.6564,
+    "lon": -79.386,
+    "name": "Downtown Toronto (Central Bay Street)"
+  },
+  "M5H": {
+    "lat": 43.6496,
+    "lon": -79.3833,
+    "name": "Downtown Toronto (Richmond / Adelaide / King)"
+  },
+  "M5J": {
+    "lat": 43.623,
+    "lon": -79.3936,
+    "name": "Downtown Toronto (Harbourfront East / Union Station / Toronto Island)"
+  },
+  "M5K": {
+    "lat": 43.6469,
+    "lon": -79.3823,
+    "name": "Downtown Toronto (Toronto Dominion Centre / Design Exchange)"
+  },
+  "M5L": {
+    "lat": 43.6492,
+    "lon": -79.3823,
+    "name": "Downtown Toronto (Commerce Court / Victoria Hotel)"
+  },
+  "M5N": {
+    "lat": 43.7113,
+    "lon": -79.4195,
+    "name": "Central Toronto (Roselawn)"
+  },
+  "M5P": {
+    "lat": 43.6966,
+    "lon": -79.412,
+    "name": "Central Toronto (Forest Hill North & West)"
+  },
+  "M5R": {
+    "lat": 43.6736,
+    "lon": -79.4035,
+    "name": "Central Toronto (The Annex / North Midtown / Yorkville)"
+  },
+  "M5S": {
+    "lat": 43.6629,
+    "lon": -79.3987,
+    "name": "Downtown Toronto (University of Toronto / Harbord)"
+  },
+  "M5T": {
+    "lat": 43.6541,
+    "lon": -79.3978,
+    "name": "Downtown Toronto (Kensington Market / Chinatown / Grange Park)"
+  },
+  "M5V": {
+    "lat": 43.6404,
+    "lon": -79.3995,
+    "name": "Downtown Toronto (CN Tower / King and Spadina / Railway Lands / Harbourfront West / Bathurst Quay / South Niagara / YTZ)"
+  },
+  "M5W": {
+    "lat": 43.6437,
+    "lon": -79.3787,
+    "name": "Downtown Toronto Stn A PO Boxes 25 The Esplanade (Enclave of M5E)"
+  },
+  "M5X": {
+    "lat": 43.6492,
+    "lon": -79.3823,
+    "name": "Downtown Toronto (Underground city)"
+  },
+  "M6G": {
+    "lat": 43.6683,
+    "lon": -79.4205,
+    "name": "Downtown Toronto (Christie)"
+  },
+  "M6H": {
+    "lat": 43.6655,
+    "lon": -79.4378,
+    "name": "West Toronto (Dufferin / Dovercourt Village)"
+  },
+  "M6J": {
+    "lat": 43.648,
+    "lon": -79.4177,
+    "name": "West Toronto (Rua Aþores / Trinity)"
+  },
+  "M6K": {
+    "lat": 43.6383,
+    "lon": -79.4301,
+    "name": "West Toronto (Brockton / Parkdale Village / Exhibition Place)"
+  },
+  "M6P": {
+    "lat": 43.6605,
+    "lon": -79.4633,
+    "name": "West Toronto (High Park / The Junction South)"
+  },
+  "M6R": {
+    "lat": 43.6469,
+    "lon": -79.4521,
+    "name": "West Toronto (Parkdale / Roncesvalles Village)"
+  },
+  "M6S": {
+    "lat": 43.6512,
+    "lon": -79.4828,
+    "name": "West Toronto (Bloor West Village / Swansea)"
+  },
+  "M7Y": {
+    "lat": 43.7804,
+    "lon": -79.2505,
+    "name": "East Toronto Business Reply Mail Processing Centre 969 Eastern (Enclave of M4L)"
+  },
+  "M8V": {
+    "lat": 43.6075,
+    "lon": -79.5013,
+    "name": "Etobicoke (New Toronto / Mimico South / Humber Bay Shores)"
+  },
+  "M1B": {
+    "lat": 43.8113,
+    "lon": -79.193,
+    "name": "Scarborough (Malvern / Rouge River)"
+  },
+  "M1C": {
+    "lat": 43.7878,
+    "lon": -79.1564,
+    "name": "Scarborough (Rouge Hill / Port Union / Highland Creek)"
+  },
+  "M1E": {
+    "lat": 43.7678,
+    "lon": -79.1866,
+    "name": "Scarborough (Guildwood / Morningside / Ellesmere)"
+  },
+  "M1G": {
+    "lat": 43.7712,
+    "lon": -79.2144,
+    "name": "Scarborough (Woburn)"
+  },
+  "M1H": {
+    "lat": 43.7686,
+    "lon": -79.2389,
+    "name": "Scarborough (Cedarbrae)"
+  },
+  "M1J": {
+    "lat": 43.7464,
+    "lon": -79.2323,
+    "name": "Scarborough (Eglinton)"
+  },
+  "M1K": {
+    "lat": 43.7298,
+    "lon": -79.2639,
+    "name": "Scarborough (Kennedy Park / Ionview / East Birchmount Park)"
+  },
+  "M1L": {
+    "lat": 43.7122,
+    "lon": -79.2843,
+    "name": "Scarborough (The Golden Mile / Clairlea / Oakridge / Birchmount Park East)"
+  },
+  "M1M": {
+    "lat": 43.7247,
+    "lon": -79.2312,
+    "name": "Scarborough (Cliffside / Cliffcrest / Scarborough Village West)"
+  },
+  "M1N": {
+    "lat": 43.6952,
+    "lon": -79.2646,
+    "name": "Scarborough (Birch Cliff / Cliffside West)"
+  },
+  "M1P": {
+    "lat": 43.7612,
+    "lon": -79.2707,
+    "name": "Scarborough (Dorset Park / Wexford Heights / Scarborough Town Centre)"
+  },
+  "M1R": {
+    "lat": 43.7507,
+    "lon": -79.3003,
+    "name": "Scarborough (Wexford / Maryvale)"
+  },
+  "M1S": {
+    "lat": 43.7946,
+    "lon": -79.2644,
+    "name": "Scarborough (Agincourt)"
+  },
+  "M1T": {
+    "lat": 43.7812,
+    "lon": -79.3036,
+    "name": "Scarborough (Clarks Corners / Tam O'Shanter / Sullivan)"
+  },
+  "M1V": {
+    "lat": 43.8177,
+    "lon": -79.2819,
+    "name": "Scarborough (Milliken / Agincourt North / Steeles East / L'Amoreaux East)"
+  },
+  "M1W": {
+    "lat": 43.8016,
+    "lon": -79.3216,
+    "name": "Scarborough (Steeles West / L'Amoreaux West)"
+  },
+  "M1X": {
+    "lat": 43.834,
+    "lon": -79.2069,
+    "name": "Scarborough (Upper Rouge)"
+  },
+  "M2H": {
+    "lat": 43.8015,
+    "lon": -79.3577,
+    "name": "North York (Hillcrest Village)"
+  },
+  "M2J": {
+    "lat": 43.7801,
+    "lon": -79.3479,
+    "name": "North York (Fairview / Henry Farm / Oriole)"
+  },
+  "M2K": {
+    "lat": 43.7797,
+    "lon": -79.3813,
+    "name": "North York (Bayview Village)"
+  },
+  "M2L": {
+    "lat": 43.7547,
+    "lon": -79.3764,
+    "name": "North York (York Mills / Silver Hills)"
+  },
+  "M2M": {
+    "lat": 43.7915,
+    "lon": -79.4103,
+    "name": "Willowdale East (Newtonbrook)"
+  },
+  "M2N": {
+    "lat": 43.7673,
+    "lon": -79.4111,
+    "name": "Willowdale South"
+  },
+  "M2P": {
+    "lat": 43.75,
+    "lon": -79.3978,
+    "name": "North York (York Mills West)"
+  },
+  "M2R": {
+    "lat": 43.7786,
+    "lon": -79.445,
+    "name": "Willowdale West"
+  },
+  "M3A": {
+    "lat": 43.7545,
+    "lon": -79.33,
+    "name": "North York (York Heights / Victoria Village / Parkway East)"
+  },
+  "M3B": {
+    "lat": 43.745,
+    "lon": -79.359,
+    "name": "Don Mills North"
+  },
+  "M3C": {
+    "lat": 43.7334,
+    "lon": -79.3329,
+    "name": "Don Mills South (Flemingdon Park)"
+  },
+  "M3H": {
+    "lat": 43.7535,
+    "lon": -79.4472,
+    "name": "North York (Armour Heights / Wilson Heights / Downsview North)"
+  },
+  "M3J": {
+    "lat": 43.7694,
+    "lon": -79.4921,
+    "name": "North York (Northwood Park / York University)"
+  },
+  "M3L": {
+    "lat": 43.7334,
+    "lon": -79.5116,
+    "name": "Downsview West"
+  },
+  "M3M": {
+    "lat": 43.7319,
+    "lon": -79.4928,
+    "name": "Downsview Central"
+  },
+  "M3N": {
+    "lat": 43.7568,
+    "lon": -79.521,
+    "name": "North York (Jane and Finch)"
+  },
+  "M4A": {
+    "lat": 43.7276,
+    "lon": -79.3148,
+    "name": "North York (Sweeney Park / Wigmore Park)"
+  },
+  "M4B": {
+    "lat": 43.7063,
+    "lon": -79.3094,
+    "name": "East York (Parkview Hill / Woodbine Gardens)"
+  },
+  "M4C": {
+    "lat": 43.6913,
+    "lon": -79.3116,
+    "name": "East York (Woodbine Heights)"
+  },
+  "M4G": {
+    "lat": 43.7124,
+    "lon": -79.3644,
+    "name": "East York (Leaside)"
+  },
+  "M4H": {
+    "lat": 43.7059,
+    "lon": -79.3464,
+    "name": "East York (Thorncliffe Park)"
+  },
+  "M5M": {
+    "lat": 43.7335,
+    "lon": -79.4177,
+    "name": "North York (Bedford Park / Lawrence Park West / Lawrence Manor East)"
+  },
+  "M6A": {
+    "lat": 43.7223,
+    "lon": -79.4504,
+    "name": "North York (Lawrence Manor / Lawrence Heights)"
+  },
+  "M6B": {
+    "lat": 43.7081,
+    "lon": -79.4479,
+    "name": "North York (Glencairn)"
+  },
+  "M6C": {
+    "lat": 43.6915,
+    "lon": -79.4307,
+    "name": "York (Cedarvale)"
+  },
+  "M6E": {
+    "lat": 43.6889,
+    "lon": -79.4507,
+    "name": "York (Fairbank / Oakwood)"
+  },
+  "M6L": {
+    "lat": 43.7137,
+    "lon": -79.4869,
+    "name": "North York (North Park / Maple Leaf Park / Upwood Park)"
+  },
+  "M6M": {
+    "lat": 43.6934,
+    "lon": -79.4857,
+    "name": "York (Del Ray / Keelsdale / Mount Dennis / Silverthorne)"
+  },
+  "M6N": {
+    "lat": 43.6748,
+    "lon": -79.4839,
+    "name": "York (Runnymede / The Junction North)"
+  },
+  "M7A": {
+    "lat": 43.6641,
+    "lon": -79.3889,
+    "name": "Queen's Park Ontario Provincial Government"
+  },
+  "M8W": {
+    "lat": 43.6021,
+    "lon": -79.5402,
+    "name": "Etobicoke (Alderwood / Long Branch)"
+  },
+  "M8X": {
+    "lat": 43.6518,
+    "lon": -79.5076,
+    "name": "Etobicoke (The Kingsway / Montgomery Road / Old Mill North)"
+  },
+  "M8Y": {
+    "lat": 43.6325,
+    "lon": -79.4939,
+    "name": "Etobicoke (Old Mill South / King's Mill Park / Sunnylea / Humber Bay / Mimico NE / The Queensway East / Royal York South East / Kingsway Park South East)"
+  },
+  "M8Z": {
+    "lat": 43.6256,
+    "lon": -79.5231,
+    "name": "Etobicoke (Mimico NW / The Queensway West / South of Bloor / Kingsway Park South West / Royal York South West)"
+  },
+  "M9A": {
+    "lat": 43.6662,
+    "lon": -79.5282,
+    "name": "Etobicoke (Islington Avenue)"
+  },
+  "M9B": {
+    "lat": 43.6505,
+    "lon": -79.5517,
+    "name": "Etobicoke (West Deane Park / Princess Gardens / Martin Grove / Islington / Cloverdale)"
+  },
+  "M9C": {
+    "lat": 43.6437,
+    "lon": -79.5767,
+    "name": "Etobicoke (Eringate / Bloordale Gardens / Old Burnhamthorpe / Markland Woods)"
+  },
+  "M9L": {
+    "lat": 43.7598,
+    "lon": -79.5565,
+    "name": "North York (Humber Summit)"
+  },
+  "M9M": {
+    "lat": 43.7366,
+    "lon": -79.5401,
+    "name": "North York (Humberlea / Emery)"
+  },
+  "M9N": {
+    "lat": 43.7068,
+    "lon": -79.517,
+    "name": "Weston"
+  },
+  "M9P": {
+    "lat": 43.6949,
+    "lon": -79.5323,
+    "name": "Etobicoke (Westmount)"
+  },
+  "M9R": {
+    "lat": 43.6898,
+    "lon": -79.5582,
+    "name": "Etobicoke (Kingsview Village / St. Phillips / Martin Grove Gardens / Richview Gardens)"
+  },
+  "M9V": {
+    "lat": 43.7432,
+    "lon": -79.5876,
+    "name": "Etobicoke (South Steeles / Silverstone / Humbergate / Jamestown / Mount Olive / Beaumond Heights / Thistletown / Albion Gardens)"
+  },
+  "M9W": {
+    "lat": 43.7144,
+    "lon": -79.5909,
+    "name": "Etobicoke Northwest (Clairville / Humberwood / Woodbine Downs / West Humber / Kipling Heights / Rexdale / Elms / Tandridge / Old Rexdale)"
+  }
+}

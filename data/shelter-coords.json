@@ -1,0 +1,956 @@
+{
+  "1001": {
+    "locationId": "1001",
+    "locationName": "Red Door Family Shelter",
+    "address": "189B Booth Ave",
+    "postalCode": "M4M 2M5",
+    "fsa": "M4M",
+    "lat": 43.6561,
+    "lon": -79.3406
+  },
+  "1002": {
+    "locationId": "1002",
+    "locationName": "Na-Me-Res",
+    "address": "14 Vaughan Rd",
+    "postalCode": "M6G 2N1",
+    "fsa": "M6G",
+    "lat": 43.6683,
+    "lon": -79.4205
+  },
+  "1004": {
+    "locationId": "1004",
+    "locationName": "Streets to Homes Assessment and Referral Centre (SHARC)",
+    "address": "129 Peter St",
+    "postalCode": "M5V 2H3",
+    "fsa": "M5V",
+    "lat": 43.6404,
+    "lon": -79.3995
+  },
+  "1005": {
+    "locationId": "1005",
+    "locationName": "TSSS Womens' Residence",
+    "address": "674 Dundas St W",
+    "postalCode": "M5H 1H9",
+    "fsa": "M5H",
+    "lat": 43.6496,
+    "lon": -79.3833
+  },
+  "1007": {
+    "locationId": "1007",
+    "locationName": "Adelaide Resource Centre for Women",
+    "address": "67 Adelaide St E",
+    "postalCode": "M5C 1K6",
+    "fsa": "M5C",
+    "lat": 43.6513,
+    "lon": -79.3756
+  },
+  "1008": {
+    "locationId": "1008",
+    "locationName": "TSSS Seaton House",
+    "address": "339 George St",
+    "postalCode": "M5A 2N2",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1011": {
+    "locationId": "1011",
+    "locationName": "TSSS Fort York Residence",
+    "address": "38 Bathurst St",
+    "postalCode": "M5V 3W3",
+    "fsa": "M5V",
+    "lat": 43.6404,
+    "lon": -79.3995
+  },
+  "1013": {
+    "locationId": "1013",
+    "locationName": "Sagatay ",
+    "address": "26 Vaughan Rd",
+    "postalCode": "M6G 2C4",
+    "fsa": "M6G",
+    "lat": 43.6683,
+    "lon": -79.4205
+  },
+  "1014": {
+    "locationId": "1014",
+    "locationName": "Scott Mission",
+    "address": "502 Spadina Ave",
+    "postalCode": "M5S 2H1",
+    "fsa": "M5S",
+    "lat": 43.6629,
+    "lon": -79.3987
+  },
+  "1015": {
+    "locationId": "1015",
+    "locationName": "Dixon Hall Heyworth House",
+    "address": "2714 Danforth Ave",
+    "postalCode": "M4C 1L7",
+    "fsa": "M4C",
+    "lat": 43.6913,
+    "lon": -79.3116
+  },
+  "1018": {
+    "locationId": "1018",
+    "locationName": "Native Child & Family Services Toronto",
+    "address": "558 Bathurst St",
+    "postalCode": "M5S 2P9",
+    "fsa": "M5S",
+    "lat": 43.6629,
+    "lon": -79.3987
+  },
+  "1019": {
+    "locationId": "1019",
+    "locationName": "Horizons for Youth",
+    "address": "422 Gilbert Ave",
+    "postalCode": "M6E 4X3",
+    "fsa": "M6E",
+    "lat": 43.6889,
+    "lon": -79.4507
+  },
+  "1020": {
+    "locationId": "1020",
+    "locationName": "Dixon Hall Schoolhouse",
+    "address": "349 George St",
+    "postalCode": "M5A 2N2",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1021": {
+    "locationId": "1021",
+    "locationName": "Good Shepherd Centre Barrett House",
+    "address": "35 Sydenham St",
+    "postalCode": "M5A 4H5",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1022": {
+    "locationId": "1022",
+    "locationName": "Good Shepherd Centre",
+    "address": "412 Queen St E",
+    "postalCode": "M5A 1T3",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1023": {
+    "locationId": "1023",
+    "locationName": "Eva's Satellite",
+    "address": "25 Canterbury Pl",
+    "postalCode": "M3N 0E3",
+    "fsa": "M3N",
+    "lat": 43.7568,
+    "lon": -79.521
+  },
+  "1024": {
+    "locationId": "1024",
+    "locationName": "Eva's Place",
+    "address": "360 Lesmill Rd",
+    "postalCode": "M3B 2T5",
+    "fsa": "M3B",
+    "lat": 43.745,
+    "lon": -79.359
+  },
+  "1025": {
+    "locationId": "1025",
+    "locationName": "Eva's Phoenix",
+    "address": "60 Brant St",
+    "postalCode": "M5V 3G9",
+    "fsa": "M5V",
+    "lat": 43.6404,
+    "lon": -79.3995
+  },
+  "1026": {
+    "locationId": "1026",
+    "locationName": "Covenant House Gerrard St E",
+    "address": "20 Gerrard St E",
+    "postalCode": "M5B 2P3",
+    "fsa": "M5B",
+    "lat": 43.6572,
+    "lon": -79.3783
+  },
+  "1027": {
+    "locationId": "1027",
+    "locationName": "Covenant House McGill St",
+    "address": "21 McGill St",
+    "postalCode": "M5B 1H3",
+    "fsa": "M5B",
+    "lat": 43.6572,
+    "lon": -79.3783
+  },
+  "1028": {
+    "locationId": "1028",
+    "locationName": "Cornerstone Place",
+    "address": "616 Vaughan Rd",
+    "postalCode": "M6C 2R5",
+    "fsa": "M6C",
+    "lat": 43.6915,
+    "lon": -79.4307
+  },
+  "1029": {
+    "locationId": "1029",
+    "locationName": "CONC Men's Shelter Lansdowne Ave",
+    "address": "973 Lansdowne Ave",
+    "postalCode": "M6H 3Z5",
+    "fsa": "M6H",
+    "lat": 43.6655,
+    "lon": -79.4378
+  },
+  "1031": {
+    "locationId": "1031",
+    "locationName": "HFS St. Clair Ave E Shelter",
+    "address": "3576 St Clair Ave E",
+    "postalCode": "M1K 1M2",
+    "fsa": "M1K",
+    "lat": 43.7298,
+    "lon": -79.2639
+  },
+  "1036": {
+    "locationId": "1036",
+    "locationName": "SA Evangeline Residence",
+    "address": "2808 Dundas St W",
+    "postalCode": "M6P 1Y5",
+    "fsa": "M6P",
+    "lat": 43.6605,
+    "lon": -79.4633
+  },
+  "1037": {
+    "locationId": "1037",
+    "locationName": "SA Gateway",
+    "address": "107 Jarvis St",
+    "postalCode": "M5C 2H4",
+    "fsa": "M5C",
+    "lat": 43.6513,
+    "lon": -79.3756
+  },
+  "1039": {
+    "locationId": "1039",
+    "locationName": "SVDP St. Clare's Residence",
+    "address": "3410 Bayview Ave",
+    "postalCode": "M2M 3S3",
+    "fsa": "M2M",
+    "lat": 43.7915,
+    "lon": -79.4103
+  },
+  "1041": {
+    "locationId": "1041",
+    "locationName": "Turning Point Youth Services ",
+    "address": "95 Wellesley St E",
+    "postalCode": "M4Y 2X9",
+    "fsa": "M4Y",
+    "lat": 43.6656,
+    "lon": -79.383
+  },
+  "1045": {
+    "locationId": "1045",
+    "locationName": "Street Haven",
+    "address": "87 Pembroke St",
+    "postalCode": "M5A 2N9",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1048": {
+    "locationId": "1048",
+    "locationName": "SVDP Mary's Home",
+    "address": "70 Gerrard St E",
+    "postalCode": "M5B 1G6",
+    "fsa": "M5B",
+    "lat": 43.6572,
+    "lon": -79.3783
+  },
+  "1049": {
+    "locationId": "1049",
+    "locationName": "SVDP Elisa House",
+    "address": "60 Newcastle St",
+    "postalCode": "M8Y 1A3",
+    "fsa": "M8Y",
+    "lat": 43.6325,
+    "lon": -79.4939
+  },
+  "1050": {
+    "locationId": "1050",
+    "locationName": "SVDP Amelie House",
+    "address": "126 Pape Ave",
+    "postalCode": "M4M 2V8",
+    "fsa": "M4M",
+    "lat": 43.6561,
+    "lon": -79.3406
+  },
+  "1051": {
+    "locationId": "1051",
+    "locationName": "COSTI Reception Centre",
+    "address": "100 Lippincott St",
+    "postalCode": "M5S 2P1",
+    "fsa": "M5S",
+    "lat": 43.6629,
+    "lon": -79.3987
+  },
+  "1052": {
+    "locationId": "1052",
+    "locationName": "Christie Refugee Welcome Centre",
+    "address": "43 Christie St",
+    "postalCode": "M6G 3B1",
+    "fsa": "M6G",
+    "lat": 43.6683,
+    "lon": -79.4205
+  },
+  "1053": {
+    "locationId": "1053",
+    "locationName": "Fife House Denison Ave",
+    "address": "70 Denison Ave",
+    "postalCode": "M5T 2M8",
+    "fsa": "M5T",
+    "lat": 43.6541,
+    "lon": -79.3978
+  },
+  "1054": {
+    "locationId": "1054",
+    "locationName": "Fife House Sherbourne St",
+    "address": "490 Sherbourne St",
+    "postalCode": "M4X 1K9",
+    "fsa": "M4X",
+    "lat": 43.6684,
+    "lon": -79.3689
+  },
+  "1055": {
+    "locationId": "1055",
+    "locationName": "Fred Victor Centre Bethlehem United Shelter",
+    "address": "1161 Caledonia Rd",
+    "postalCode": "M6A 2W9",
+    "fsa": "M6A",
+    "lat": 43.7223,
+    "lon": -79.4504
+  },
+  "1057": {
+    "locationId": "1057",
+    "locationName": "Maxwell Meighen Centre",
+    "address": "135 Sherbourne St",
+    "postalCode": "M5A 2R5",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1059": {
+    "locationId": "1059",
+    "locationName": "Sojourn House Ontario St",
+    "address": "101 Ontario St",
+    "postalCode": "M5A 2V2",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1062": {
+    "locationId": "1062",
+    "locationName": "YWCA 1st Stop Woodlawn ",
+    "address": "80 Woodlawn Ave E",
+    "postalCode": "M4T 1C1",
+    "fsa": "M4T",
+    "lat": 43.6899,
+    "lon": -79.3853
+  },
+  "1064": {
+    "locationId": "1064",
+    "locationName": "Youth Without Shelter ",
+    "address": "6 Warrendale Ct",
+    "postalCode": "M9V 1P9",
+    "fsa": "M9V",
+    "lat": 43.7432,
+    "lon": -79.5876
+  },
+  "1065": {
+    "locationId": "1065",
+    "locationName": "TSSS Family Residence",
+    "address": "4222 Kingston Rd",
+    "postalCode": "M1E 2M6",
+    "fsa": "M1E",
+    "lat": 43.7678,
+    "lon": -79.1866
+  },
+  "1066": {
+    "locationId": "1066",
+    "locationName": "Kingston Residence SWS",
+    "address": "4674 Kingston Rd",
+    "postalCode": "M1E 2P9",
+    "fsa": "M1E",
+    "lat": 43.7678,
+    "lon": -79.1866
+  },
+  "1069": {
+    "locationId": "1069",
+    "locationName": "Robertson House",
+    "address": "291 Sherbourne St",
+    "postalCode": "M5A 2R9",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1070": {
+    "locationId": "1070",
+    "locationName": "TSSS Birkdale Residence",
+    "address": "1229 Ellesmere Rd",
+    "postalCode": "M1P 4V8",
+    "fsa": "M1P",
+    "lat": 43.7612,
+    "lon": -79.2707
+  },
+  "1080": {
+    "locationId": "1080",
+    "locationName": "Kennedy House Youth Shelter",
+    "address": "1076 Pape Ave",
+    "postalCode": "M4K 3W5",
+    "fsa": "M4K",
+    "lat": 43.6803,
+    "lon": -79.3538
+  },
+  "1081": {
+    "locationId": "1081",
+    "locationName": "Fred Victor Mary Sheffield House",
+    "address": "512 Jarvis St",
+    "postalCode": "M4Y 2H6",
+    "fsa": "M4Y",
+    "lat": 43.6656,
+    "lon": -79.383
+  },
+  "1096": {
+    "locationId": "1096",
+    "locationName": "Wagner Green YMCA",
+    "address": "7 Vanauley St",
+    "postalCode": "M5T 2V9",
+    "fsa": "M5T",
+    "lat": 43.6541,
+    "lon": -79.3978
+  },
+  "1099": {
+    "locationId": "1099",
+    "locationName": "Fred Victor Centre Transition to Housing Dundas St E",
+    "address": "386 Dundas St E",
+    "postalCode": "M5A 2A5",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1101": {
+    "locationId": "1101",
+    "locationName": "YMCA Sprott House ",
+    "address": "21 Walmer Rd",
+    "postalCode": "M5R 2W7",
+    "fsa": "M5R",
+    "lat": 43.6736,
+    "lon": -79.4035
+  },
+  "1102": {
+    "locationId": "1102",
+    "locationName": "CONC Men's Shelter Bloor St W",
+    "address": "850 Bloor St W",
+    "postalCode": "M6G 1M2",
+    "fsa": "M6G",
+    "lat": 43.6683,
+    "lon": -79.4205
+  },
+  "1103": {
+    "locationId": "1103",
+    "locationName": "TSSS North York West Hotel Program",
+    "address": "1677 Wilson Ave",
+    "postalCode": "M3L 1A5",
+    "fsa": "M3L",
+    "lat": 43.7334,
+    "lon": -79.5116
+  },
+  "1104": {
+    "locationId": "1104",
+    "locationName": "Sistering",
+    "address": "962 Bloor St W",
+    "postalCode": "M6H 1L6",
+    "fsa": "M6H",
+    "lat": 43.6655,
+    "lon": -79.4378
+  },
+  "1108": {
+    "locationId": "1108",
+    "locationName": "HFS Kennedy Rd Women's Shelter",
+    "address": "702 Kennedy Rd",
+    "postalCode": "M1K 2B5",
+    "fsa": "M1K",
+    "lat": 43.7298,
+    "lon": -79.2639
+  },
+  "1114": {
+    "locationId": "1114",
+    "locationName": "COSTI Uptown Hotel Program",
+    "address": "55 Hallcrown Pl",
+    "postalCode": "M2J 4R1",
+    "fsa": "M2J",
+    "lat": 43.7801,
+    "lon": -79.3479
+  },
+  "1118": {
+    "locationId": "1118",
+    "locationName": "Margaret's 21 Park Rd Respite ",
+    "address": "21 Park Rd",
+    "postalCode": "M4W 2N1",
+    "fsa": "M4W",
+    "lat": 43.6827,
+    "lon": -79.373
+  },
+  "1120": {
+    "locationId": "1120",
+    "locationName": "Toronto Community Hostel (MUC)",
+    "address": "191 Spadina Rd",
+    "postalCode": "M5R 2T9",
+    "fsa": "M5R",
+    "lat": 43.6736,
+    "lon": -79.4035
+  },
+  "1124": {
+    "locationId": "1124",
+    "locationName": "TSSS Downtown Hotel Program",
+    "address": "77 Ryerson Ave",
+    "postalCode": "M5T 2V4",
+    "fsa": "M5T",
+    "lat": 43.6541,
+    "lon": -79.3978
+  },
+  "1125": {
+    "locationId": "1125",
+    "locationName": "HFS 195 Princes' Blvd ",
+    "address": "195 Princes' Blvd",
+    "postalCode": "M6K 3C3",
+    "fsa": "M6K",
+    "lat": 43.6383,
+    "lon": -79.4301
+  },
+  "1126": {
+    "locationId": "1126",
+    "locationName": "SA New Hope Leslieville",
+    "address": "29A Leslie St",
+    "postalCode": "M4M 3C3",
+    "fsa": "M4M",
+    "lat": 43.6561,
+    "lon": -79.3406
+  },
+  "1128": {
+    "locationId": "1128",
+    "locationName": "Dixon Hall 354 George St",
+    "address": "354 George St",
+    "postalCode": "M5A 2N3",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1129": {
+    "locationId": "1129",
+    "locationName": "YWCA Davenport Shelter",
+    "address": "348 Davenport Road",
+    "postalCode": "M5R 1K6",
+    "fsa": "M5R",
+    "lat": 43.6736,
+    "lon": -79.4035
+  },
+  "1130": {
+    "locationId": "1130",
+    "locationName": "Fred Victor Uptown Hotel Program",
+    "address": "185 Yorkland Blvd",
+    "postalCode": "M2J 4R2",
+    "fsa": "M2J",
+    "lat": 43.7801,
+    "lon": -79.3479
+  },
+  "1132": {
+    "locationId": "1132",
+    "locationName": "Sojourn House Hotel Program",
+    "address": "165 Grange Ave",
+    "postalCode": "M5T 2V5",
+    "fsa": "M5T",
+    "lat": 43.6541,
+    "lon": -79.3978
+  },
+  "1146": {
+    "locationId": "1146",
+    "locationName": "SA Islington Seniors' Shelter",
+    "address": "2671 Islington Ave",
+    "postalCode": "M9V 2X6",
+    "fsa": "M9V",
+    "lat": 43.7432,
+    "lon": -79.5876
+  },
+  "1147": {
+    "locationId": "1147",
+    "locationName": "YouthLink ",
+    "address": "747 Warden Ave",
+    "postalCode": "M1L 4A1",
+    "fsa": "M1L",
+    "lat": 43.7122,
+    "lon": -79.2843
+  },
+  "1148": {
+    "locationId": "1148",
+    "locationName": "St. Felix Centre 69 Fraser Ave. Respite ",
+    "address": "69 Fraser Ave",
+    "postalCode": "M6K 1E9",
+    "fsa": "M6K",
+    "lat": 43.6383,
+    "lon": -79.4301
+  },
+  "1149": {
+    "locationId": "1149",
+    "locationName": "Dixon Hall 351 Lake Shore Blvd E Respite",
+    "address": "351 Lake Shore Blvd E",
+    "postalCode": "M5A 1C1",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1150": {
+    "locationId": "1150",
+    "locationName": "HFS 545 Lake Shore Blvd W Shelter",
+    "address": "545 Lake Shore Blvd W",
+    "postalCode": "M5V 1A3",
+    "fsa": "M5V",
+    "lat": 43.6404,
+    "lon": -79.3995
+  },
+  "1151": {
+    "locationId": "1151",
+    "locationName": "TSSS Scarborough Village Residence",
+    "address": "3306 Kingston Rd",
+    "postalCode": "M1M 1P8",
+    "fsa": "M1M",
+    "lat": 43.7247,
+    "lon": -79.2312
+  },
+  "1152": {
+    "locationId": "1152",
+    "locationName": "Fred Victor Centre 1A Strachan Ave Respite",
+    "address": "1A Strachan Ave",
+    "postalCode": "M6K 3C3",
+    "fsa": "M6K",
+    "lat": 43.6383,
+    "lon": -79.4301
+  },
+  "1153": {
+    "locationId": "1153",
+    "locationName": "HFS Willowdale Centre",
+    "address": "5800 Yonge St",
+    "postalCode": "M2M 3T3",
+    "fsa": "M2M",
+    "lat": 43.7915,
+    "lon": -79.4103
+  },
+  "1154": {
+    "locationId": "1154",
+    "locationName": "TSSS Junction Place",
+    "address": "731 Runnymede Rd",
+    "postalCode": "M6N 3V7",
+    "fsa": "M6N",
+    "lat": 43.6748,
+    "lon": -79.4839
+  },
+  "1155": {
+    "locationId": "1155",
+    "locationName": "Scarborough Hotel Program 1",
+    "address": "4584 Kingston Rd",
+    "postalCode": "M1E 2P4",
+    "fsa": "M1E",
+    "lat": 43.7678,
+    "lon": -79.1866
+  },
+  "1160": {
+    "locationId": "1160",
+    "locationName": "CONC Etobicoke Hotel Program",
+    "address": "445 Rexdale Blvd",
+    "postalCode": "M9W 6P8",
+    "fsa": "M9W",
+    "lat": 43.7144,
+    "lon": -79.5909
+  },
+  "1165": {
+    "locationId": "1165",
+    "locationName": "Jimmie Simpson CC",
+    "address": "870 Queen St E",
+    "postalCode": "M4M 3G9",
+    "fsa": "M4M",
+    "lat": 43.6561,
+    "lon": -79.3406
+  },
+  "1166": {
+    "locationId": "1166",
+    "locationName": "SA Scarborough Hotel Program",
+    "address": "50 Estate Dr",
+    "postalCode": "M1H 2Z1",
+    "fsa": "M1H",
+    "lat": 43.7686,
+    "lon": -79.2389
+  },
+  "1168": {
+    "locationId": "1168",
+    "locationName": "Good Shepherd Centre West End Hotel Program",
+    "address": "335 Jarvis St",
+    "postalCode": "M5B 2C2",
+    "fsa": "M5B",
+    "lat": 43.6572,
+    "lon": -79.3783
+  },
+  "1172": {
+    "locationId": "1172",
+    "locationName": "CONC West End Hotel Program",
+    "address": "14 Roncesvalles Ave",
+    "postalCode": "M6R 2K3",
+    "fsa": "M6R",
+    "lat": 43.6469,
+    "lon": -79.4521
+  },
+  "1180": {
+    "locationId": "1180",
+    "locationName": "Street Haven Downtown Hotel Program",
+    "address": "26 Gerrard St E",
+    "postalCode": "M5B 1G3",
+    "fsa": "M5B",
+    "lat": 43.6572,
+    "lon": -79.3783
+  },
+  "1189": {
+    "locationId": "1189",
+    "locationName": "Etobicoke Hotel Site 1",
+    "address": "66 Norfinch Dr",
+    "postalCode": "M3N 1X1",
+    "fsa": "M3N",
+    "lat": 43.7568,
+    "lon": -79.521
+  },
+  "1190": {
+    "locationId": "1190",
+    "locationName": "TSSS Downtown Response Program",
+    "address": "76 Church St",
+    "postalCode": "M5C 2G1",
+    "fsa": "M5C",
+    "lat": 43.6513,
+    "lon": -79.3756
+  },
+  "1192": {
+    "locationId": "1192",
+    "locationName": "St. Simon's Clubbe House",
+    "address": "556 Sherbourne St",
+    "postalCode": "M4X 1L4",
+    "fsa": "M4X",
+    "lat": 43.6684,
+    "lon": -79.3689
+  },
+  "1193": {
+    "locationId": "1193",
+    "locationName": "Fred Victor Centre Fatima House",
+    "address": "1059 College Street",
+    "postalCode": "M6H 1B1",
+    "fsa": "M6H",
+    "lat": 43.6655,
+    "lon": -79.4378
+  },
+  "1194": {
+    "locationId": "1194",
+    "locationName": "Scarborough Women's Shelter - Milner",
+    "address": "20 Milner Business Ct",
+    "postalCode": "M1B 3M6",
+    "fsa": "M1B",
+    "lat": 43.8113,
+    "lon": -79.193
+  },
+  "1195": {
+    "locationId": "1195",
+    "locationName": "HFS - Lawrence East Shelter",
+    "address": "4117 Lawrence Ave E",
+    "postalCode": "M1E 2S2",
+    "fsa": "M1E",
+    "lat": 43.7678,
+    "lon": -79.1866
+  },
+  "1200": {
+    "locationId": "1200",
+    "locationName": "HFS Placer",
+    "address": "101 Placer Ct",
+    "postalCode": "M2H 3H9",
+    "fsa": "M2H",
+    "lat": 43.8015,
+    "lon": -79.3577
+  },
+  "1220": {
+    "locationId": "1220",
+    "locationName": "HFS - Metro Strachan",
+    "address": "22 Metropolitan Rd",
+    "postalCode": "M1R 2T5",
+    "fsa": "M1R",
+    "lat": 43.7507,
+    "lon": -79.3003
+  },
+  "1300": {
+    "locationId": "1300",
+    "locationName": "The Scott Mission - Kensington location",
+    "address": "346 Spadina Ave.",
+    "postalCode": "M5T 1J5",
+    "fsa": "M5T",
+    "lat": 43.6541,
+    "lon": -79.3978
+  },
+  "1320": {
+    "locationId": "1320",
+    "locationName": "COSTI Hotel Program Dixon",
+    "address": "640 Dixon Rd.",
+    "postalCode": "M9W 1J1",
+    "fsa": "M9W",
+    "lat": 43.7144,
+    "lon": -79.5909
+  },
+  "1360": {
+    "locationId": "1360",
+    "locationName": "Progress Avenue Shelter",
+    "address": "705 Progress Ave",
+    "postalCode": "M1H 2X1",
+    "fsa": "M1H",
+    "lat": 43.7686,
+    "lon": -79.2389
+  },
+  "1440": {
+    "locationId": "1440",
+    "locationName": "TSSS - Warming Centre - Cecil",
+    "address": "58 Cecil Street",
+    "postalCode": "M5T 1N6",
+    "fsa": "M5T",
+    "lat": 43.6541,
+    "lon": -79.3978
+  },
+  "1460": {
+    "locationId": "1460",
+    "locationName": "Dixon Hall - Warming Centre North York",
+    "address": "12 Holmes Ave",
+    "postalCode": "M2N 4N4",
+    "fsa": "M2N",
+    "lat": 43.7673,
+    "lon": -79.4111
+  },
+  "1500": {
+    "locationId": "1500",
+    "locationName": "Native Child & Family - Spadina",
+    "address": "111 Spadina Rd",
+    "postalCode": "M5R 2T1",
+    "fsa": "M5R",
+    "lat": 43.6736,
+    "lon": -79.4035
+  },
+  "1541": {
+    "locationId": "1541",
+    "locationName": "Christie Ossington - Spadina Rd",
+    "address": "136 Spadina Rd",
+    "postalCode": "M5R 2T8",
+    "fsa": "M5R",
+    "lat": 43.6736,
+    "lon": -79.4035
+  },
+  "1561": {
+    "locationId": "1561",
+    "locationName": "885 Scarborough Golf Club Road",
+    "address": "885 Scarborough Golf Club Road",
+    "postalCode": "M1G 1J6",
+    "fsa": "M1G",
+    "lat": 43.7712,
+    "lon": -79.2144
+  },
+  "1621": {
+    "locationId": "1621",
+    "locationName": "Covenant House - Madison",
+    "address": "158 Madison Ave.",
+    "postalCode": "M5R 2S5",
+    "fsa": "M5R",
+    "lat": 43.6736,
+    "lon": -79.4035
+  },
+  "1641": {
+    "locationId": "1641",
+    "locationName": "Romero-Edna Lane House",
+    "address": "2387 Dundas Street West",
+    "postalCode": "M6P 1X2",
+    "fsa": "M6P",
+    "lat": 43.6605,
+    "lon": -79.4633
+  },
+  "1661": {
+    "locationId": "1661",
+    "locationName": "CHT Thrive Transitional Shelter",
+    "address": "18 Fourteenth Street",
+    "postalCode": "M8V 3H9",
+    "fsa": "M8V",
+    "lat": 43.6075,
+    "lon": -79.5013
+  },
+  "1701": {
+    "locationId": "1701",
+    "locationName": "Matthew House - Dundas House",
+    "address": "981 Dundas St W",
+    "postalCode": "M6J 1W4",
+    "fsa": "M6J",
+    "lat": 43.648,
+    "lon": -79.4177
+  },
+  "1721": {
+    "locationId": "1721",
+    "locationName": "213 Carlton Street",
+    "address": "213 Carlton Street",
+    "postalCode": "M5A 2K9",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1741": {
+    "locationId": "1741",
+    "locationName": "La Passerelle I.D.E. L'Agapanthe",
+    "address": "179 Gerrard St. East",
+    "postalCode": "M5A 2E5",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "1781": {
+    "locationId": "1781",
+    "locationName": "St. Felix Ctr - Adelaide Shelter",
+    "address": "629 Adelaide St W",
+    "postalCode": "M6J 1A8",
+    "fsa": "M6J",
+    "lat": 43.648,
+    "lon": -79.4177
+  },
+  "1821": {
+    "locationId": "1821",
+    "locationName": "Matthew House - Eunice House",
+    "address": "30 Eunice Rd",
+    "postalCode": "M2K 2V5",
+    "fsa": "M2K",
+    "lat": 43.7797,
+    "lon": -79.3813
+  },
+  "1861": {
+    "locationId": "1861",
+    "locationName": "DH Warming Centre - 81 Elizabeth",
+    "address": "81 Elizabeth St.",
+    "postalCode": "M5G 1P4",
+    "fsa": "M5G",
+    "lat": 43.6564,
+    "lon": -79.386
+  },
+  "1941": {
+    "locationId": "1941",
+    "locationName": "John Innes Community Centre",
+    "address": "150 Sherbourne St.",
+    "postalCode": "M5A 2R6",
+    "fsa": "M5A",
+    "lat": 43.6555,
+    "lon": -79.3626
+  },
+  "2041": {
+    "locationId": "2041",
+    "locationName": "FCJ - Indian Rd",
+    "address": "302 Indian Rd",
+    "postalCode": "M6R 2X6",
+    "fsa": "M6R",
+    "lat": 43.6469,
+    "lon": -79.4521
+  }
+}
