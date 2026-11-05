@@ -1,8 +1,17 @@
 {
   "buildCommand": "npm install --include=dev --prefix client && npm run build --prefix client",
   "outputDirectory": "client/dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api" }
+  ],
   "functions": {
-    "api/*.js": {
+    "api/index.js": {
+      "includeFiles": "data/**"
+    },
+    "api/shelters.js": {
+      "includeFiles": "data/**"
+    },
+    "api/geocode.js": {
       "includeFiles": "data/**"
     }
   }
