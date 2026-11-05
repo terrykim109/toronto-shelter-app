@@ -280,6 +280,10 @@ if (fs.existsSync(CLIENT_DIST)) {
   });
 }
 
-server.listen(HTTP_PORT, () => {
-  console.log(`Server listening on port ${HTTP_PORT}`);
-});
+if (require.main === module) {
+  server.listen(HTTP_PORT, () => {
+    console.log(`Server listening on port ${HTTP_PORT}`);
+  });
+}
+
+module.exports = app;
