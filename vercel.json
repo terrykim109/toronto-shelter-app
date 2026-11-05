@@ -1,9 +1,9 @@
 {
   "buildCommand": "npm install --include=dev --prefix client && npm run build --prefix client",
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "outputDirectory": "client/dist",
   "functions": {
-    "api/index.js": {
-      "includeFiles": "{data/**,client/dist/**}"
+    "api/[...slug].js": {
+      "includeFiles": "data/**"
     }
   }
 }
