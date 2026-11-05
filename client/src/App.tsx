@@ -3,8 +3,10 @@ import { PostalSearch } from "./components/PostalSearch";
 import { ShelterList } from "./components/ShelterList";
 import { ShelterMap } from "./components/ShelterMap";
 import { WeatherWidget } from "./components/WeatherWidget";
+import { CommunityChat } from "./components/CommunityChat";
 import type { GeocodeResult, Shelter } from "./types";
 import { formatCapacity, getDistance } from "./utils/geo";
+
 
 type FocusTarget = {
   lat: number;
@@ -147,6 +149,7 @@ export default function App() {
         loading={loading}
         onSelect={focusShelter}
       />
+      <CommunityChat />
       <WeatherWidget />
       <footer className="footer">
         Occupancy data from the City of Toronto Open Data portal. Postal lookup

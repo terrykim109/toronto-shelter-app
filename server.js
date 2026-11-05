@@ -1,19 +1,129 @@
 const express = require("express");
 const https = require("https");
+const http = require("http");
 const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
+const { Server } = require("socket.io");
 
 const app = express();
+const server = http.createServer(app);
 const HTTP_PORT = process.env.PORT || 8080;
 const PACKAGE_ID = "21c83b32-d5a8-4106-a54f-010dbe49f6f2";
 
 const FSA_PATH = path.join(__dirname, "data", "toronto-fsa.json");
 const SHELTER_COORDS_PATH = path.join(__dirname, "data", "shelter-coords.json");
+const CHAT_PATH = path.join(__dirname, "data", "chat-messages.json");
 const CLIENT_DIST = path.join(__dirname, "client", "dist");
+
+const MAX_CHAT_MESSAGES = 150;
+const MAX_MESSAGE_LENGTH = 280;
+const MIN_NICKNAME = 2;
+const MAX_NICKNAME = 20;
 
 const torontoFsa = JSON.parse(fs.readFileSync(FSA_PATH, "utf8"));
 const shelterCoords = JSON.parse(fs.readFileSync(SHELTER_COORDS_PATH, "utf8"));
+
+function loadChatMessages() {
+  try {
+    if (!fs.existsSync(CHAT_PATH)) return [];
+    const parsed = JSON.parse(fs.readFileSync(CHAT_PATH, "utf8"));
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (err) {
+    console.error("Failed to load chat messages:", err);
+    return [];
+  }
+}
+
+function saveChatMessages(messages) {
+  try {
+    fs.writeFileSync(CHAT_PATH, JSON.stringify(messages, null, 2));
+  } catch (err) {
+    console.error("Failed to save chat messages:", err);
+  }
+}
+
+let chatMessages = loadChatMessages();
+
+const io = new Server(server, {
+  cors: {
+    origin: true,
+    methods: ["GET", "POST"],
+  },
+});
+
+function sanitizeText(value) {
+  return String(value || "")
+    .replace(/</g, "")
+    .replace(/>/g, "")
+    .trim();
+}
+
+function normalizeNickname(value) {
+  const nickname = sanitizeText(value).slice(0, MAX_NICKNAME);
+  if (nickname.length < MIN_NICKNAME) return null;
+  return nickname;
+}
+
+function onlineCount() {
+  let count = 0;
+  for (const socket of io.sockets.sockets.values()) {
+    if (socket.data.nickname) count += 1;
+  }
+  return count;
+}
+
+function broadcastPresence() {
+  io.emit("presence", { online: onlineCount() });
+}
+
+io.on("connection", (socket) => {
+  socket.on("join", (payload = {}) => {
+    const nickname = normalizeNickname(payload.nickname);
+    if (!nickname) {
+      socket.emit("chat:error", {
+        error: `Nickname must be ${MIN_NICKNAME}–${MAX_NICKNAME} characters.`,
+      });
+      return;
+    }
+
+    socket.data.nickname = nickname;
+    socket.emit("history", chatMessages);
+    broadcastPresence();
+  });
+
+  socket.on("message", (payload = {}) => {
+    const nickname = socket.data.nickname;
+    if (!nickname) {
+      socket.emit("chat:error", { error: "Join with a nickname first." });
+      return;
+    }
+
+    const text = sanitizeText(payload.text).slice(0, MAX_MESSAGE_LENGTH);
+    if (!text) {
+      socket.emit("chat:error", { error: "Message cannot be empty." });
+      return;
+    }
+
+    const message = {
+      id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+      nickname,
+      text,
+      at: new Date().toISOString(),
+    };
+
+    chatMessages.push(message);
+    if (chatMessages.length > MAX_CHAT_MESSAGES) {
+      chatMessages = chatMessages.slice(-MAX_CHAT_MESSAGES);
+    }
+    saveChatMessages(chatMessages);
+    io.emit("message", message);
+  });
+
+  socket.on("disconnect", () => {
+    broadcastPresence();
+  });
+});
 
 app.use(cors());
 app.use(express.json());
@@ -163,11 +273,13 @@ app.get("/api/shelters", async (_req, res) => {
 if (fs.existsSync(CLIENT_DIST)) {
   app.use(express.static(CLIENT_DIST));
   app.get("*", (req, res, next) => {
-    if (req.path.startsWith("/api/")) return next();
+    if (req.path.startsWith("/api/") || req.path.startsWith("/socket.io")) {
+      return next();
+    }
     res.sendFile(path.join(CLIENT_DIST, "index.html"));
   });
 }
 
-app.listen(HTTP_PORT, () => {
+server.listen(HTTP_PORT, () => {
   console.log(`Server listening on port ${HTTP_PORT}`);
 });
