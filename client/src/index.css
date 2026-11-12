@@ -183,9 +183,37 @@ body {
 
 .map-section,
 .list-section,
+.support-section,
 .chat-section,
 .weather-section {
   margin-top: calc(var(--space) * 1.75);
+}
+
+.support-group {
+  margin-top: 1.5rem;
+}
+
+.support-group:first-of-type {
+  margin-top: 0.25rem;
+}
+
+.support-group-title {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--color-accent);
+}
+
+.support-note {
+  margin: 0 0 0.75rem;
+  max-width: 36rem;
+  font-size: 0.95rem;
+  color: var(--color-muted);
+}
+
+.shelter-row-muted .shelter-name {
+  color: var(--color-text-secondary);
 }
 
 .visually-hidden {

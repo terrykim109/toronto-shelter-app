@@ -1,12 +1,17 @@
 import { useCallback, useEffect, useState } from "react";
+import { CommunityChat } from "./components/CommunityChat";
 import { PostalSearch } from "./components/PostalSearch";
 import { ShelterList } from "./components/ShelterList";
 import { ShelterMap } from "./components/ShelterMap";
+import { SupportSites } from "./components/SupportSites";
 import { WeatherWidget } from "./components/WeatherWidget";
-import { CommunityChat } from "./components/CommunityChat";
-import type { GeocodeResult, Shelter } from "./types";
+import type {
+  GeocodeResult,
+  Shelter,
+  SupportSite,
+  SupportSitesResponse,
+} from "./types";
 import { formatCapacity, getDistance } from "./utils/geo";
-
 
 type FocusTarget = {
   lat: number;
@@ -18,7 +23,10 @@ type FocusTarget = {
 
 export default function App() {
   const [shelters, setShelters] = useState<Shelter[]>([]);
+  const [overnight, setOvernight] = useState<SupportSite[]>([]);
+  const [cooling, setCooling] = useState<SupportSite[]>([]);
   const [loading, setLoading] = useState(true);
+  const [supportLoading, setSupportLoading] = useState(true);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [status, setStatus] = useState<string | null>(null);
@@ -49,32 +57,96 @@ export default function App() {
       }
     }
 
+    async function loadSupportSites() {
+      setSupportLoading(true);
+      try {
+        const response = await fetch("/api/support-sites");
+        if (!response.ok) {
+          throw new Error("Could not load support sites.");
+        }
+        const data: SupportSitesResponse = await response.json();
+        if (!cancelled) {
+          setOvernight(data.overnight || []);
+          setCooling(data.cooling || []);
+        }
+      } catch (err) {
+        console.error(err);
+        if (!cancelled) {
+          setOvernight([]);
+          setCooling([]);
+        }
+      } finally {
+        if (!cancelled) setSupportLoading(false);
+      }
+    }
+
     loadShelters();
+    loadSupportSites();
     return () => {
       cancelled = true;
     };
   }, []);
 
-  const focusShelter = useCallback((shelter: Shelter) => {
-    if (shelter.lat == null || shelter.lon == null) {
-      setError("That shelter does not have map coordinates yet.");
-      return;
-    }
+  const focusPlace = useCallback(
+    (place: {
+      lat: number | null;
+      lon: number | null;
+      name: string;
+      address?: string | null;
+      capacityLabel: string;
+    }) => {
+      if (place.lat == null || place.lon == null) {
+        setError("That location does not have map coordinates yet.");
+        return;
+      }
 
-    setError(null);
-    setFocus({
-      lat: shelter.lat,
-      lon: shelter.lon,
-      name: shelter.LOCATION_NAME,
-      address: shelter.LOCATION_ADDRESS,
-      capacityLabel: formatCapacity(shelter),
-    });
+      setError(null);
+      setFocus({
+        lat: place.lat,
+        lon: place.lon,
+        name: place.name,
+        address: place.address || undefined,
+        capacityLabel: place.capacityLabel,
+      });
 
-    document.getElementById("map-heading")?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  }, []);
+      document.getElementById("map-heading")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    },
+    []
+  );
+
+  const focusShelter = useCallback(
+    (shelter: Shelter) => {
+      focusPlace({
+        lat: shelter.lat,
+        lon: shelter.lon,
+        name: shelter.LOCATION_NAME,
+        address: shelter.LOCATION_ADDRESS,
+        capacityLabel: formatCapacity(shelter),
+      });
+    },
+    [focusPlace]
+  );
+
+  const focusSupportSite = useCallback(
+    (site: SupportSite) => {
+      focusPlace({
+        lat: site.lat,
+        lon: site.lon,
+        name: site.name,
+        address: site.address,
+        capacityLabel:
+          site.category === "cooling"
+            ? site.type
+            : site.available
+              ? formatCapacity(site)
+              : `Full · ${formatCapacity(site)}`,
+      });
+    },
+    [focusPlace]
+  );
 
   const handleSearch = useCallback(
     async (postal: string) => {
@@ -135,6 +207,8 @@ export default function App() {
     [focusShelter, shelters]
   );
 
+  const allSupportSites = [...overnight, ...cooling];
+
   return (
     <div className="page">
       <PostalSearch
@@ -143,17 +217,28 @@ export default function App() {
         error={error}
         status={status}
       />
-      <ShelterMap shelters={shelters} focus={focus} />
+      <ShelterMap
+        shelters={shelters}
+        supportSites={allSupportSites}
+        focus={focus}
+      />
       <ShelterList
         shelters={shelters}
         loading={loading}
         onSelect={focusShelter}
       />
+      <SupportSites
+        overnight={overnight}
+        cooling={cooling}
+        loading={supportLoading}
+        onSelect={focusSupportSite}
+      />
       <CommunityChat />
       <WeatherWidget />
       <footer className="footer">
-        Occupancy data from the City of Toronto Open Data portal. Postal lookup
-        uses a local Toronto FSA coordinate set.
+        Occupancy and overnight service data from the City of Toronto Open Data
+        portal. Cooling centres from Toronto GIS. Postal lookup uses a local
+        Toronto FSA coordinate set.
       </footer>
     </div>
   );

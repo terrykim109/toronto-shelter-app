@@ -1,10 +1,17 @@
 import { useEffect } from "react";
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import {
+  CircleMarker,
+  MapContainer,
+  Marker,
+  Popup,
+  TileLayer,
+  useMap,
+} from "react-leaflet";
 import L from "leaflet";
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
-import type { Shelter } from "../types";
+import type { Shelter, SupportSite } from "../types";
 import { formatCapacity } from "../utils/geo";
 
 const TORONTO_CENTER: [number, number] = [43.65107, -79.347015];
@@ -31,6 +38,7 @@ type FocusTarget = {
 
 type ShelterMapProps = {
   shelters: Shelter[];
+  supportSites: SupportSite[];
   focus: FocusTarget;
 };
 
@@ -51,9 +59,20 @@ function MapFocus({ focus }: { focus: FocusTarget }) {
   return null;
 }
 
-export function ShelterMap({ shelters, focus }: ShelterMapProps) {
+function supportColor(site: SupportSite): string {
+  if (site.category === "cooling") return "#77848E";
+  if (site.type === "Warming Centre") return "#576878";
+  return "#33414D";
+}
+
+export function ShelterMap({ shelters, supportSites, focus }: ShelterMapProps) {
   const withCoords = shelters.filter(
     (s): s is Shelter & { lat: number; lon: number } =>
+      typeof s.lat === "number" && typeof s.lon === "number"
+  );
+
+  const supportWithCoords = supportSites.filter(
+    (s): s is SupportSite & { lat: number; lon: number } =>
       typeof s.lat === "number" && typeof s.lon === "number"
   );
 
@@ -61,7 +80,9 @@ export function ShelterMap({ shelters, focus }: ShelterMapProps) {
     <section className="map-section" aria-labelledby="map-heading">
       <div className="section-header">
         <h2 id="map-heading">Map</h2>
-        <p>Available shelters plotted by Toronto postal area.</p>
+        <p>
+          Shelters as pins · warming, respite, and cooling sites as circles
+        </p>
       </div>
       <div className="map-frame">
         <MapContainer
@@ -87,6 +108,33 @@ export function ShelterMap({ shelters, focus }: ShelterMapProps) {
                 {formatCapacity(shelter)}
               </Popup>
             </Marker>
+          ))}
+          {supportWithCoords.map((site) => (
+            <CircleMarker
+              key={site.id}
+              center={[site.lat, site.lon]}
+              radius={8}
+              pathOptions={{
+                color: supportColor(site),
+                fillColor: supportColor(site),
+                fillOpacity: site.available ? 0.7 : 0.35,
+                weight: 1.5,
+              }}
+            >
+              <Popup>
+                <strong>{site.name}</strong>
+                <br />
+                {site.type}
+                <br />
+                {site.address || "Address unavailable"}
+                <br />
+                {site.category === "cooling"
+                  ? "Cooling centre"
+                  : site.available
+                    ? formatCapacity(site)
+                    : `Full · ${formatCapacity(site)}`}
+              </Popup>
+            </CircleMarker>
           ))}
           <MapFocus focus={focus} />
         </MapContainer>

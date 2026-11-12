@@ -13,6 +13,9 @@
     },
     "api/geocode.js": {
       "includeFiles": "data/**"
+    },
+    "api/support-sites.js": {
+      "includeFiles": "data/**"
     }
   }
 }

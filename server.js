@@ -10,6 +10,16 @@ const app = express();
 const server = http.createServer(app);
 const HTTP_PORT = process.env.PORT || 8080;
 const PACKAGE_ID = "21c83b32-d5a8-4106-a54f-010dbe49f6f2";
+const COOLING_CENTRES_URL =
+  "https://gis.toronto.ca/arcgis/rest/services/cot_geospatial10/FeatureServer/3/query?where=1%3D1&outFields=PLACE_NAME,ADDRESS_NUMBER,LINEAR_NAME_FULL,POSTAL_CODE,LATITUDE,LONGITUDE,OBJECTID&returnGeometry=false&outSR=4326&f=json&resultRecordCount=2000";
+
+const SHELTER_SERVICE_TYPES = new Set(["Shelter", "Motel/Hotel Shelter"]);
+const SUPPORT_SERVICE_TYPES = new Set([
+  "Warming Centre",
+  "24-Hour Respite Site",
+  "24-Hour Women's Drop-in",
+  "Surge site",
+]);
 
 const FSA_PATH = path.join(__dirname, "data", "toronto-fsa.json");
 const SHELTER_COORDS_PATH = path.join(__dirname, "data", "shelter-coords.json");
@@ -205,6 +215,85 @@ function attachCoords(record) {
   return { ...record, lat: null, lon: null, fsa: fsa || null };
 }
 
+function latestByLocation(records) {
+  const grouped = {};
+  for (const record of records) {
+    const key = record.LOCATION_ID || record.LOCATION_NAME;
+    if (!key) continue;
+    if (!grouped[key]) grouped[key] = [];
+    grouped[key].push(record);
+  }
+
+  const latest = [];
+  for (const entries of Object.values(grouped)) {
+    entries.sort(
+      (a, b) => new Date(b.OCCUPANCY_DATE) - new Date(a.OCCUPANCY_DATE)
+    );
+    latest.push(entries[0]);
+  }
+  return latest;
+}
+
+async function fetchShelterOccupancyRecords() {
+  const pkg = await getPackage();
+  const resource = pkg.resources.find((r) => r.format === "JSON");
+  if (!resource) {
+    throw new Error("Shelter JSON resource not found.");
+  }
+  return getJson(resource.url);
+}
+
+function toOvernightSupportSite(record) {
+  const withCoords = attachCoords(record);
+  const available = hasAvailability(record);
+  return {
+    id: String(record.LOCATION_ID || record.LOCATION_NAME),
+    name: record.LOCATION_NAME,
+    address: record.LOCATION_ADDRESS || null,
+    postalCode: record.LOCATION_POSTAL_CODE || null,
+    type: record.OVERNIGHT_SERVICE_TYPE || "Overnight support",
+    category: "overnight",
+    sector: record.SECTOR || null,
+    programName: record.PROGRAM_NAME || null,
+    occupancyDate: record.OCCUPANCY_DATE || null,
+    available,
+    lat: withCoords.lat,
+    lon: withCoords.lon,
+    fsa: withCoords.fsa || null,
+    CAPACITY_ACTUAL_ROOM: record.CAPACITY_ACTUAL_ROOM,
+    OCCUPIED_ROOMS: record.OCCUPIED_ROOMS,
+    CAPACITY_ACTUAL_BED: record.CAPACITY_ACTUAL_BED,
+    OCCUPIED_BEDS: record.OCCUPIED_BEDS,
+  };
+}
+
+function toCoolingCentre(feature) {
+  const a = feature.attributes || {};
+  const street = [a.ADDRESS_NUMBER, a.LINEAR_NAME_FULL]
+    .filter(Boolean)
+    .join(" ")
+    .trim();
+  const lat = typeof a.LATITUDE === "number" ? a.LATITUDE : null;
+  const lon = typeof a.LONGITUDE === "number" ? a.LONGITUDE : null;
+  const fsa = normalizeFsa(a.POSTAL_CODE);
+
+  return {
+    id: `cooling-${a.OBJECTID}`,
+    name: a.PLACE_NAME || street || "Cooling centre",
+    address: street || null,
+    postalCode: a.POSTAL_CODE || null,
+    type: "Cooling Centre",
+    category: "cooling",
+    sector: null,
+    programName: null,
+    occupancyDate: null,
+    available: true,
+    lat,
+    lon,
+    fsa,
+  };
+}
+
 app.get("/api/geocode", (req, res) => {
   const fsa = normalizeFsa(req.query.postal);
   if (!fsa) {
@@ -231,42 +320,53 @@ app.get("/api/geocode", (req, res) => {
 
 app.get("/api/shelters", async (_req, res) => {
   try {
-    const pkg = await getPackage();
-    const resource = pkg.resources.find((r) => r.format === "JSON");
-    if (!resource) {
-      return res.status(500).json({ error: "Shelter JSON resource not found." });
-    }
+    const records = await fetchShelterOccupancyRecords();
+    const latest = latestByLocation(records);
 
-    const records = await getJson(resource.url);
-    const grouped = {};
-
-    for (const record of records) {
-      const name = record.LOCATION_NAME;
-      if (!name) continue;
-      if (!grouped[name]) grouped[name] = [];
-      grouped[name].push(record);
-    }
-
-    const available = [];
-    for (const shelterName of Object.keys(grouped)) {
-      const entries = grouped[shelterName];
-      entries.sort(
-        (a, b) => new Date(b.OCCUPANCY_DATE) - new Date(a.OCCUPANCY_DATE)
+    const available = latest
+      .filter((record) =>
+        SHELTER_SERVICE_TYPES.has(record.OVERNIGHT_SERVICE_TYPE)
+      )
+      .filter(hasAvailability)
+      .map(attachCoords)
+      .sort((a, b) =>
+        String(a.LOCATION_NAME).localeCompare(String(b.LOCATION_NAME))
       );
-      const latest = entries[0];
-      if (hasAvailability(latest)) {
-        available.push(attachCoords(latest));
-      }
-    }
-
-    available.sort((a, b) =>
-      String(a.LOCATION_NAME).localeCompare(String(b.LOCATION_NAME))
-    );
 
     res.json(available);
   } catch (err) {
     console.error("API error:", err);
     res.status(500).json({ error: "Failed to fetch shelter data." });
+  }
+});
+
+app.get("/api/support-sites", async (_req, res) => {
+  try {
+    const [records, coolingPayload] = await Promise.all([
+      fetchShelterOccupancyRecords(),
+      getJson(COOLING_CENTRES_URL),
+    ]);
+
+    const overnight = latestByLocation(records)
+      .filter((record) =>
+        SUPPORT_SERVICE_TYPES.has(record.OVERNIGHT_SERVICE_TYPE)
+      )
+      .map(toOvernightSupportSite)
+      .sort((a, b) => {
+        const typeCmp = String(a.type).localeCompare(String(b.type));
+        if (typeCmp !== 0) return typeCmp;
+        return String(a.name).localeCompare(String(b.name));
+      });
+
+    const cooling = (coolingPayload.features || [])
+      .map(toCoolingCentre)
+      .filter((site) => site.lat != null && site.lon != null)
+      .sort((a, b) => String(a.name).localeCompare(String(b.name)));
+
+    res.json({ overnight, cooling });
+  } catch (err) {
+    console.error("Support sites API error:", err);
+    res.status(500).json({ error: "Failed to fetch support site data." });
   }
 });
 

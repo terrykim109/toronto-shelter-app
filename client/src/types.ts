@@ -22,3 +22,28 @@ export type GeocodeResult = {
   lon: number;
   name?: string;
 };
+
+export type SupportSite = {
+  id: string;
+  name: string;
+  address: string | null;
+  postalCode: string | null;
+  type: string;
+  category: "overnight" | "cooling";
+  sector?: string | null;
+  programName?: string | null;
+  occupancyDate?: string | null;
+  available: boolean;
+  lat: number | null;
+  lon: number | null;
+  fsa?: string | null;
+  CAPACITY_ACTUAL_ROOM?: string | number | null;
+  OCCUPIED_ROOMS?: string | number | null;
+  CAPACITY_ACTUAL_BED?: string | number | null;
+  OCCUPIED_BEDS?: string | number | null;
+};
+
+export type SupportSitesResponse = {
+  overnight: SupportSite[];
+  cooling: SupportSite[];
+};
