@@ -11,7 +11,7 @@ import type {
   SupportSite,
   SupportSitesResponse,
 } from "./types";
-import { formatCapacity, getDistance } from "./utils/geo";
+import { findNearest, formatCapacity } from "./utils/geo";
 
 type FocusTarget = {
   lat: number;
@@ -31,6 +31,7 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [status, setStatus] = useState<string | null>(null);
   const [focus, setFocus] = useState<FocusTarget>(null);
+  const [selectedShelter, setSelectedShelter] = useState<Shelter | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -88,13 +89,16 @@ export default function App() {
   }, []);
 
   const focusPlace = useCallback(
-    (place: {
-      lat: number | null;
-      lon: number | null;
-      name: string;
-      address?: string | null;
-      capacityLabel: string;
-    }) => {
+    (
+      place: {
+        lat: number | null;
+        lon: number | null;
+        name: string;
+        address?: string | null;
+        capacityLabel: string;
+      },
+      options?: { scrollToMap?: boolean }
+    ) => {
       if (place.lat == null || place.lon == null) {
         setError("That location does not have map coordinates yet.");
         return;
@@ -109,26 +113,36 @@ export default function App() {
         capacityLabel: place.capacityLabel,
       });
 
-      document.getElementById("map-heading")?.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
+      if (options?.scrollToMap) {
+        document.getElementById("map-heading")?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
     },
     []
   );
 
   const focusShelter = useCallback(
-    (shelter: Shelter) => {
-      focusPlace({
-        lat: shelter.lat,
-        lon: shelter.lon,
-        name: shelter.LOCATION_NAME,
-        address: shelter.LOCATION_ADDRESS,
-        capacityLabel: formatCapacity(shelter),
-      });
+    (shelter: Shelter, options?: { scrollToMap?: boolean }) => {
+      setSelectedShelter(shelter.profile ? shelter : null);
+      focusPlace(
+        {
+          lat: shelter.lat,
+          lon: shelter.lon,
+          name: shelter.LOCATION_NAME,
+          address: shelter.LOCATION_ADDRESS,
+          capacityLabel: formatCapacity(shelter),
+        },
+        options
+      );
     },
     [focusPlace]
   );
+
+  const closeShelterDetail = useCallback(() => {
+    setSelectedShelter(null);
+  }, []);
 
   const focusSupportSite = useCallback(
     (site: SupportSite) => {
@@ -167,35 +181,15 @@ export default function App() {
         }
 
         const point = payload as GeocodeResult;
-        const withCoords = shelters.filter(
-          (s): s is Shelter & { lat: number; lon: number } =>
-            typeof s.lat === "number" && typeof s.lon === "number"
-        );
-
-        if (withCoords.length === 0) {
+        const nearest = findNearest(point, shelters);
+        if (!nearest) {
           throw new Error("No mapped shelters are available yet.");
         }
 
-        let nearest = withCoords[0];
-        let minDist = Infinity;
-
-        for (const shelter of withCoords) {
-          const dist = getDistance(
-            point.lat,
-            point.lon,
-            shelter.lat,
-            shelter.lon
-          );
-          if (dist < minDist) {
-            minDist = dist;
-            nearest = shelter;
-          }
-        }
-
         setStatus(
-          `Nearest available: ${nearest.LOCATION_NAME} (${minDist.toFixed(1)} km from ${point.fsa})`
+          `Nearest available: ${nearest.place.LOCATION_NAME} (${nearest.distanceKm.toFixed(1)} km from ${point.fsa})`
         );
-        focusShelter(nearest);
+        focusShelter(nearest.place, { scrollToMap: true });
       } catch (err) {
         const message =
           err instanceof Error ? err.message : "Something went wrong.";
@@ -225,7 +219,9 @@ export default function App() {
       <ShelterList
         shelters={shelters}
         loading={loading}
+        selectedId={selectedShelter?.LOCATION_ID ?? selectedShelter?.LOCATION_NAME}
         onSelect={focusShelter}
+        onClose={closeShelterDetail}
       />
       <SupportSites
         overnight={overnight}
@@ -238,7 +234,9 @@ export default function App() {
       <footer className="footer">
         Occupancy and overnight service data from the City of Toronto Open Data
         portal. Cooling centres from Toronto GIS. Postal lookup uses a local
-        Toronto FSA coordinate set.
+        Toronto FSA coordinate set. Shelter detail profiles were researched
+        offline by AI agents from public sources and may not reflect same-day
+        intake rules — call ahead when you can.
       </footer>
     </div>
   );

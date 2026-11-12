@@ -6,30 +6,11 @@
  */
 const fs = require("fs");
 const path = require("path");
-const https = require("https");
+const { fetchOccupancyRecords } = require("../lib/toronto-open-data");
 
-const PACKAGE_ID = "21c83b32-d5a8-4106-a54f-010dbe49f6f2";
 const ROOT = path.join(__dirname, "..");
 const FSA_PATH = path.join(ROOT, "data", "toronto-fsa.json");
 const OUT_PATH = path.join(ROOT, "data", "shelter-coords.json");
-
-function getJson(url) {
-  return new Promise((resolve, reject) => {
-    https
-      .get(url, (res) => {
-        let data = "";
-        res.on("data", (chunk) => (data += chunk));
-        res.on("end", () => {
-          try {
-            resolve(JSON.parse(data));
-          } catch (err) {
-            reject(err);
-          }
-        });
-      })
-      .on("error", reject);
-  });
-}
 
 function normalizeFsa(postal) {
   if (!postal) return null;
@@ -43,11 +24,7 @@ function normalizeFsa(postal) {
 async function main() {
   const fsaMap = JSON.parse(fs.readFileSync(FSA_PATH, "utf8"));
 
-  const pkg = (await getJson(
-    `https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/package_show?id=${PACKAGE_ID}`
-  )).result;
-  const resourceUrl = pkg.resources.find((r) => r.format === "JSON").url;
-  const records = await getJson(resourceUrl);
+  const records = await fetchOccupancyRecords();
 
   const byLocation = {};
   for (const record of records) {

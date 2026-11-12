@@ -15,6 +15,28 @@ export function getDistance(
   return R * c;
 }
 
+/**
+ * Returns the place closest to the origin by great-circle distance, ignoring
+ * places without coordinates. Ties keep the earliest place in the input.
+ */
+export function findNearest<T extends { lat: number | null; lon: number | null }>(
+  origin: { lat: number; lon: number },
+  places: T[]
+): { place: T & { lat: number; lon: number }; distanceKm: number } | null {
+  let nearest: { place: T & { lat: number; lon: number }; distanceKm: number } | null =
+    null;
+
+  for (const place of places) {
+    if (typeof place.lat !== "number" || typeof place.lon !== "number") continue;
+    const distanceKm = getDistance(origin.lat, origin.lon, place.lat, place.lon);
+    if (!nearest || distanceKm < nearest.distanceKm) {
+      nearest = { place: place as T & { lat: number; lon: number }, distanceKm };
+    }
+  }
+
+  return nearest;
+}
+
 export function formatCapacity(shelter: {
   CAPACITY_ACTUAL_ROOM?: string | number | null;
   OCCUPIED_ROOMS?: string | number | null;

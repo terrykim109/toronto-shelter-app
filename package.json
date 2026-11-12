@@ -10,7 +10,12 @@
     "build": "npm install --include=dev --prefix client && npm run build --prefix client",
     "start": "npm run build && node server.js",
     "build:shelter-coords": "node scripts/build-shelter-coords.js",
-    "build:toronto-fsa": "node scripts/build-toronto-fsa.js"
+    "build:toronto-fsa": "node scripts/build-toronto-fsa.js",
+    "export:shelter-targets": "node scripts/export-shelter-targets.js",
+    "merge:shelter-profile": "node scripts/merge-shelter-profile.js",
+    "research:shelters": "node scripts/research-shelter-profiles.js",
+    "test": "node --test --experimental-strip-types \"tests/**/*.test.*\"",
+    "test:research": "node --test tests/research-agent.test.js"
   },
   "author": "Terry Kim",
   "license": "ISC",
@@ -21,6 +26,7 @@
   },
   "keywords": [],
   "devDependencies": {
-    "concurrently": "^10.0.6"
+    "concurrently": "^10.0.6",
+    "socket.io-client": "^4.8.4"
   }
 }

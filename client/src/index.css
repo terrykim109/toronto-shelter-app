@@ -406,6 +406,155 @@ body {
   color: var(--color-text-secondary);
 }
 
+.shelter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.45rem;
+}
+
+.shelter-chip {
+  font-size: 0.82rem;
+  color: var(--color-accent);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.05rem;
+}
+
+.shelter-expand-hint {
+  margin-top: 0.35rem;
+  font-size: 0.82rem;
+  color: var(--color-accent);
+}
+
+.shelter-item-expanded {
+  margin: 0.65rem -0.75rem;
+  padding: 0.35rem 0.75rem 0.85rem;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  transition: margin 0.25s ease, padding 0.25s ease, background 0.25s ease;
+}
+
+.shelter-row-selected {
+  background: transparent;
+  padding-left: 0.15rem;
+}
+
+.shelter-item-expanded .shelter-row {
+  border-bottom: none;
+  padding-bottom: 0.35rem;
+}
+
+.shelter-item-expanded .shelter-name {
+  font-size: 1.15rem;
+}
+
+.shelter-expand {
+  max-width: 44rem;
+  padding: 0.25rem 0.15rem 0.35rem;
+  animation: shelter-expand-in 0.28s ease;
+}
+
+@keyframes shelter-expand-in {
+  from {
+    opacity: 0;
+    transform: translateY(-0.35rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.shelter-expand-toolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.shelter-expand-capacity {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
+.shelter-detail-close {
+  flex: 0 0 auto;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--color-accent);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.shelter-detail-close:hover {
+  background: var(--color-background);
+}
+
+.shelter-detail-summary {
+  margin: 0.9rem 0 0;
+  line-height: 1.55;
+  color: var(--color-text);
+}
+
+.shelter-detail-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.85rem 1.25rem;
+  margin: 1rem 0 0;
+}
+
+.shelter-detail-facts div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.shelter-detail-facts dt {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+}
+
+.shelter-detail-facts dd {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
+.shelter-detail-facts a {
+  color: var(--color-accent-dark);
+}
+
+.shelter-detail-requirements {
+  margin-top: 1rem;
+}
+
+.shelter-detail-requirements h3 {
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.shelter-detail-requirements ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--color-text-secondary);
+}
+
+.shelter-detail-requirements li + li {
+  margin-top: 0.25rem;
+}
+
+.shelter-detail-meta {
+  margin: 1rem 0 0;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
 .weather-section .weatherwidget-io {
   display: block;
   width: 100%;

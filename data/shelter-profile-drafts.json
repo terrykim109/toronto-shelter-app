@@ -1,0 +1,2466 @@
+{
+  "1002": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:57:29.025Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The operator describes the Men’s Residence as serving Indigenous men experiencing homelessness. 211 lists eligibility as men 18 and older who are homeless, without stating an Indigenous-only eligibility requirement. The eligible population is therefore left null."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1002",
+      "name": "Na-Me-Res (Native Men's Residence)",
+      "phone": "416-652-0334",
+      "website": "https://www.nameres.org/",
+      "whoServed": null,
+      "access": "mixed",
+      "intakeNotes": "211 says people can self-refer by calling or walking in, or be referred by another Indigenous or social service agency. Documents may vary; contact the shelter for details.",
+      "requirements": [
+        "211 lists eligibility as men aged 18 and older who are homeless."
+      ],
+      "transit": null,
+      "summary": "Na-Me-Res operates an emergency shelter for men at 14 Vaughan Road. The operator describes culturally grounded supports for Indigenous men, including meals, essential supports and help securing permanent housing.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.nameres.org/shelter/",
+        "https://211central.ca/record/72776361/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+        "https://www.toronto.ca/wp-content/uploads/2017/09/9626-list-of-aboriginal-agencies-in-toronto.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1004": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:03:21.452Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target identifies the location/program as a shelter and bedded program. The City’s current public SHARC page distinguishes its 24/7 centre services from the Transitional Bedded Program and directs people seeking shelter to Central Intake; a 2020 City bulletin says SHARC does not have beds for respite clients and that referrals to the centre are not shelter referrals. The public sources do not clearly establish how the target’s named Streets to Homes Bedded Program relates to those descriptions."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1004",
+      "name": "Streets to Homes Assessment and Referral Centre (SHARC)",
+      "phone": "416-392-0090",
+      "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/streets-to-homes-street-outreach-support-program/",
+      "whoServed": "People experiencing homelessness who live outside or spend significant time on the streets; the transitional bedded program is for people with a significant history of street homelessness or street involvement.",
+      "access": "referral",
+      "intakeNotes": "SHARC at 129 Peter St. offers drop-in services, but people seeking a shelter bed should call Toronto Central Intake at 416-338-4766. The City describes the Transitional Bedded Program as referral-based; people referred must be working with Streets to Homes or a partner and engaged in a housing-focused service plan.",
+      "requirements": [
+        "For the Transitional Bedded Program, referrals must have a significant history of street homelessness or street involvement.",
+        "People referred must be working with Streets to Homes or a partner and engaged in a service plan focused on accessing appropriate housing."
+      ],
+      "transit": null,
+      "summary": "The City of Toronto’s SHARC at 129 Peter St. provides 24/7 access to services including showers, laundry, washrooms, food and water, harm-reduction supplies, and a telephone. The City also describes a referral-based Transitional Bedded Program; people seeking a shelter bed are directed to Central Intake.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/streets-to-homes-street-outreach-support-program/",
+        "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/harm-reduction-supplies-and-locations/",
+        "https://www.toronto.ca/community-people/community-partners/emergency-shelter-operators/bulletins-directives-funding-submissions-and-shelter-standards/bulletin-2020-04-shelter-referrals-to-streets-to-homes-assessment-and-referral-centre-129-peter-st/",
+        "https://211ontario.ca/service/69800036/site/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1005": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:08:23.514Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target gives postal code M5H 1H9, while 211 lists M5T 1H9 for 674 Dundas St W. The 211 listing's postal code is not substituted into the profile."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1005",
+      "name": "Women's Residence (Dundas West)",
+      "phone": "416-392-5500",
+      "website": null,
+      "whoServed": "Homeless women 18 and older, without children",
+      "access": "mixed",
+      "intakeNotes": "Contact the shelter directly or call Toronto Central Intake at 416-338-4766 or 1-877-338-3398 to ask about access. The listing does not specify a walk-in procedure.",
+      "requirements": [
+        "For homeless women aged 18 or older, without children",
+        "Residency requirement: Greater Toronto Area"
+      ],
+      "transit": null,
+      "summary": "Toronto Shelter and Support Services' Women's Residence is a short-term emergency shelter listed as having capacity for 88 people. Services include meals, personal supplies, case management and health-care support.",
+      "confidence": "medium",
+      "sources": [
+        "https://211ontario.ca/service/69800086/toronto-shelter-and-support-services-womens-residence/",
+        "https://www.toronto.ca/wp-content/uploads/2017/12/9514-shelter_support_housing.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1011": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:06:37.152Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The 211 Ontario listing reports 122 total spaces, including 74 shelter beds; the French-language service listing reports 116 total spaces, including 68 shelter beds. Capacity is not included in this profile."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1011",
+      "name": "TSSS Fort York Residence",
+      "phone": "416-338-8800",
+      "website": "https://www.toronto.ca/housing",
+      "whoServed": "Men 18 and older who are employment-ready",
+      "access": "referral",
+      "intakeNotes": "211 Ontario lists intake as referral-based from a supporting agency. Contact the residence for referral information.",
+      "requirements": [
+        "Men 18 or older",
+        "Employment-ready",
+        "Referral from a supporting agency"
+      ],
+      "transit": null,
+      "summary": "Fort York Residence is operated by Toronto Shelter and Support Services and provides dormitory shelter alongside transitional housing and employment-focused supports. 211 Ontario describes the residence as referral-based and not an emergency shelter.",
+      "confidence": "medium",
+      "sources": [
+        "https://211ontario.ca/service/72506315/toronto-shelter-and-support-services-fort-york-residence/",
+        "https://www.lignesantecentre-toronto.ca/displayservice.aspx?id=133836&region=EastYork",
+        "https://www.toronto.ca/wp-content/uploads/2017/12/9514-shelter_support_housing.pdf",
+        "https://www.toronto.ca/wp-content/uploads/2025/02/8bf7-66-Third-St-Bulletin-February-2025.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1013": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:01:05.490Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The operator’s Sagatay page describes accommodation for 25 residents, while Toronto Central Healthline lists capacity as 22."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1013",
+      "name": "Sagatay – A New Beginning",
+      "phone": "416-651-6750",
+      "website": "https://www.nameres.org/",
+      "whoServed": "Indigenous men",
+      "access": "unknown",
+      "intakeNotes": "Sagatay provides an application through the operator’s website. Contact NA-ME-RES to ask about eligibility and availability. For emergency shelter placement, call the City of Toronto’s Central Intake.",
+      "requirements": [],
+      "transit": "The operator locates Sagatay near St. Clair Avenue West and Bathurst Street.",
+      "summary": "Sagatay is a culturally based transitional housing program for Indigenous men at 26 Vaughan Road, operated by NA-ME-RES. The operator describes accommodation, meals, life-skills learning, and support toward residents’ personal goals.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.nameres.org/sagatay-application/",
+        "https://211ontario.ca/service/69796159/agency/na-me-res-native-mens-residence/",
+        "https://www.torontocentralhealthline.ca/displayService.aspx?id=200603",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1015": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:48:14.727Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1015",
+      "name": "Dixon Hall Heyworth House",
+      "phone": "416-691-0012",
+      "website": "https://dixonhall.org/shelter-and-respite-services/",
+      "whoServed": "Men, women and LGBTQ2S individuals age 25 and older; pet-friendly",
+      "access": "mixed",
+      "intakeNotes": "211 Central lists call, walk-in, or referral through Toronto Central Intake. Central Intake can be reached at 416-338-4766, 1-877-338-3398, or by calling 311.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Heyworth House is Dixon Hall’s co-ed overnight emergency shelter at 2714 Danforth Avenue. 211 Central lists the shelter as serving men, women and LGBTQ2S individuals age 25 and older, and notes that it is pet-friendly.",
+      "confidence": "high",
+      "sources": [
+        "https://dixonhall.org/shelter-and-respite-services/",
+        "https://211central.ca/record/69795015/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1018": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:58:09.241Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The address-specific 211 and Toronto Central Healthline listings describe service for self-declared Native young men ages 16–24. The operator’s housing page describes its transitional housing program more broadly as serving First Nations, Inuit and Métis youth, including men and women with or without children; the sources do not clarify how that broader description applies to this specific address."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1018",
+      "name": "Native Child & Family Services Toronto",
+      "phone": "416-969-8510",
+      "website": "https://nativechild.org/",
+      "whoServed": "211’s listing for 558 Bathurst St identifies self-declared Native young men ages 16–24 who are homeless or under-housed.",
+      "access": "referral",
+      "intakeNotes": "Call Native Youth Resource Centre at 416-969-8510 to ask about housing support and referrals. The 211 listing says to call to submit an application.",
+      "requirements": [
+        "211 Ontario says no documents are required."
+      ],
+      "transit": null,
+      "summary": "The 558 Bathurst St listing describes transitional housing with a 14-person capacity and a maximum stay of 12–18 months. Listed supports include counselling, tutoring, life-skills programming and after-care.",
+      "confidence": "medium",
+      "sources": [
+        "https://nativechild.org/youth/housing/",
+        "https://211ontario.ca/service/69796040/native-child-and-family-services-of-toronto-native-mens-transition-houses/",
+        "https://www.torontocentralhealthline.ca/displayservice.aspx?id=133923"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1019": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:55:46.475Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1019",
+      "name": "Horizons for Youth",
+      "phone": "416-781-9898",
+      "website": "https://horizonsforyouth.org/",
+      "whoServed": "At-risk and homeless youth ages 16–24",
+      "access": "unknown",
+      "intakeNotes": "The operator reports 24-hour intake services year-round, but does not specify how to request a bed. Call the shelter to confirm intake steps and availability.",
+      "requirements": [
+        "Ages 16–24"
+      ],
+      "transit": null,
+      "summary": "Horizons for Youth operates an emergency shelter for at-risk and homeless youth ages 16–24. Its residential program provides accommodation and basic supports, including meals; contact the shelter to confirm current intake steps and bed availability.",
+      "confidence": "medium",
+      "sources": [
+        "https://horizonsforyouth.org/",
+        "https://horizonsforyouth.org/aboutus",
+        "https://horizonsforyouth.org/housing",
+        "https://horizonsforyouth.org/contact",
+        "https://www.camh.ca/-/media/health-info-files/community-resource-sheets/shelters-toronto-pdf.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1021": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:52:35.561Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target metadata classifies this location as a men's shelter, while 211 describes Barrett House as a residence for people aged 18 and older living with HIV who are formerly homeless and/or unsupported. The available source does not describe it as an emergency men's shelter."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1021",
+      "name": "Good Shepherd Centre Barrett House",
+      "phone": "416-869-3619",
+      "website": "https://goodshepherd.ca/",
+      "whoServed": "Adults 18+ living with HIV who are formerly homeless and/or unsupported",
+      "access": "mixed",
+      "intakeNotes": "Applications may come through a social service agency, hospital, doctor, or by self-referral. Call for information; documents may vary.",
+      "requirements": [
+        "Age 18 or older",
+        "Living with HIV",
+        "Formerly homeless and/or unsupported"
+      ],
+      "transit": null,
+      "summary": "Barrett House is a Good Shepherd residence staffed 24 hours, with meals and a barrier-free environment. 211 lists a capacity of five and rents geared to income.",
+      "confidence": "medium",
+      "sources": [
+        "https://211central.ca/record/69795239/",
+        "https://goodshepherd.ca/who-we-are/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1023": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:49:26.722Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The 211 listing, last updated December 23, 2024, gives a capacity of 41 and an address of 4584 Kingston Rd. The current City and Eva's pages identify the Canterbury Place shelter at 25 Canterbury Place and list 33 beds; the newer primary sources were used."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1023",
+      "name": "Eva's Satellite - Canterbury Place",
+      "phone": "416-229-1874",
+      "website": "https://www.evas.ca/where-we-are/evas-satellite/",
+      "whoServed": "Youth ages 16–24 experiencing homelessness",
+      "access": "referral",
+      "intakeNotes": "Call in advance to ask about access and vacancies. Eva's lists Toronto Central Intake at 416-338-4766 and the shelter's direct line at 416-229-1874.",
+      "requirements": [
+        "Youth ages 16–24 experiencing homelessness"
+      ],
+      "transit": null,
+      "summary": "Eva's Satellite is an emergency youth shelter operated by Eva's Initiatives for Homeless Youth at 25 Canterbury Place. It has 33 beds and offers overnight accommodation, case management, harm reduction support and life-skills programming.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/about-torontos-shelter-system/developing-shelter-sites/25-canterbury-place/",
+        "https://www.evas.ca/where-we-are/evas-satellite/",
+        "https://www.evas.ca/get-help/",
+        "https://211ontario.ca/service/83187176/evas-initiatives-evas-satellite/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1024": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:49:02.047Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "Published intake contacts vary by source and appear to refer to different routes: Eva's contact page lists 416-441-1414, while its Get Help and location information lists Toronto City intake at 416-338-4766. Confirm the appropriate number before travelling."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1024",
+      "name": "Eva's Place",
+      "phone": "416-441-1414",
+      "website": "https://www.evas.ca/where-we-are/evas-place/",
+      "whoServed": "Homeless youth ages 16–24",
+      "access": "referral",
+      "intakeNotes": "Call in advance about vacancies and admission. Eva's lists 416-441-1414 as its intake number; its Get Help page also directs youth seeking emergency shelter to Toronto's City intake at 416-338-4766.",
+      "requirements": [
+        "For homeless youth ages 16–24."
+      ],
+      "transit": null,
+      "summary": "Eva's Place is an emergency shelter for youth ages 16–24. It offers support to help youth return home or transition to housing in the community.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.evas.ca/where-we-are/evas-place/",
+        "https://www.evas.ca/get-help/contact-us/",
+        "https://www.evas.ca/get-help/",
+        "https://211ontario.ca/service/83187169/evas-initiatives-evas-place/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1025": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:48:44.972Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1025",
+      "name": "Eva's Phoenix",
+      "phone": "416-364-4716 ext. 236",
+      "website": "https://www.evas.ca/where-we-are/evas-phoenix/",
+      "whoServed": "Youth aged 16–24",
+      "access": "mixed",
+      "intakeNotes": "Apply directly or ask a youth-serving organization to help submit an application. Contact Eva’s Coordinated Intake Team for questions; 211 also lists Toronto Central Intake as a contact for information.",
+      "requirements": [
+        "Aged 16–24",
+        "Experiencing homelessness, at risk of homelessness, or precariously housed",
+        "Employed, or, if pursuing education, working at least 15 hours per week",
+        "Ready to work toward employment, education, life-skills, health, and future-housing goals"
+      ],
+      "transit": null,
+      "summary": "Eva’s Phoenix is a 50-bed transitional housing and employment-training program operated by Eva’s Initiatives for Homeless Youth. It offers youth their own bedrooms in shared townhouse-style units, with support and programming to help build independent-living skills.",
+      "confidence": "high",
+      "sources": [
+        "https://www.evas.ca/where-we-are/evas-phoenix/",
+        "https://www.evas.ca/get-help/contact-us/",
+        "https://211ontario.ca/service/69800697/evas-initiatives-evas-phoenix/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1027": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:48:01.475Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The 211 Rights of Passage listing gives 20 Gerrard St E as its address, while Covenant House’s official site lists 21 McGill St as its location. The target identifies the McGill St location; the address difference is unresolved."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1027",
+      "name": "Covenant House McGill St",
+      "phone": "416-598-4898 ext. 5006",
+      "website": "https://covenanthousetoronto.ca/",
+      "whoServed": "Youth and young adults ages 16–24",
+      "access": "referral",
+      "intakeNotes": "This is a transitional housing program, not an emergency walk-in shelter. 211 says to apply by phone or through the website; referrals may come from Covenant House, youth shelters, or agencies serving youth. Contact the program to ask about applying.",
+      "requirements": [
+        "Ages 16–24.",
+        "For the onsite residence, applicants must be residents of Covenant House’s emergency shelter or use its Community Support Services, and be working and/or attending school."
+      ],
+      "transit": null,
+      "summary": "Covenant House Toronto’s Rights of Passage program provides transitional housing and support for youth and young adults, including life-skills programming and a maximum stay of 24 months. 211 describes the onsite residence as intended for participants who are working and/or attending school.",
+      "confidence": "medium",
+      "sources": [
+        "https://211central.ca/record/75496075/",
+        "https://covenanthousetoronto.ca/about-us/",
+        "https://covenanthousetoronto.ca/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1028": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:46:29.569Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1028",
+      "name": "Cornerstone Place",
+      "phone": "647-346-0616",
+      "website": null,
+      "whoServed": "Men 25 years and older",
+      "access": "mixed",
+      "intakeNotes": "211 lists referrals, calling, or walking in as ways to access the shelter. Contact shelter intake to confirm current availability and arrangements.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Cornerstone Place is an overnight shelter for men aged 25 and older at 616 Vaughan Rd, near Oakwood Ave. 211 lists on-site housing support, laundry facilities, and a mobile medical clinic.",
+      "confidence": "medium",
+      "sources": [
+        "https://211central.ca/record/75496449/",
+        "https://211ontario.ca/service/75496449/cornerstone-place-mens-shelter/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1029": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:45:44.762Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1029",
+      "name": "CONC Men's Shelter Lansdowne Ave",
+      "phone": "416-516-8642",
+      "website": "https://www.conccommunity.org/get-involved/shelter-housing/",
+      "whoServed": "Homeless men 18 and older",
+      "access": "referral",
+      "intakeNotes": "To seek a bed, call 311 or the City’s Central Intake Line at 416-338-4766 (toll-free: 1-877-338-3398).",
+      "requirements": [],
+      "transit": null,
+      "summary": "Operated by Christie Ossington Neighbourhood Centre (CONC), this shelter at 973 Lansdowne Avenue serves men and has 68 beds. Services include meals, one-to-one counselling, life-skills support and referrals.",
+      "confidence": "high",
+      "sources": [
+        "https://www.conccommunity.org/get-involved/shelter-housing/",
+        "https://www.conccommunity.org/contact/",
+        "https://211ontario.ca/service/69800909/christie-ossington-neighbourhood-centre-lansdowne-mens-shelter/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1031": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:54:59.382Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1031",
+      "name": "HFS St. Clair Ave E Shelter",
+      "phone": "416-214-1870",
+      "website": "https://homesfirst.on.ca/hf_property/st-clair/",
+      "whoServed": "Adults 18+, all genders",
+      "access": "referral",
+      "intakeNotes": "To seek emergency shelter, call Central Intake at 416-338-4766, 1-877-338-3398, or 311. Central Intake refers people to available shelter spaces; availability and matching depend on current needs and vacancies.",
+      "requirements": [],
+      "transit": "Homes First lists Warden Station as the nearest transit station; the shelter is near Danforth Road and St. Clair Avenue East.",
+      "summary": "St. Clair Shelter is a Homes First Society emergency shelter in Scarborough for people experiencing homelessness. It serves adults of all genders and provides temporary accommodation and support services.",
+      "confidence": "high",
+      "sources": [
+        "https://homesfirst.on.ca/hf_property/st-clair/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1036": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:59:44.246Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "Published capacity differs: 211 Ontario lists 86 beds, while the operator's page metadata describes a 90-bed shelter. Capacity is not included in this profile."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1036",
+      "name": "SA Evangeline Residence",
+      "phone": "416-762-9636",
+      "website": "https://torontohhs.org/shelters/evangeline-residence/",
+      "whoServed": "Women 18 and older experiencing homelessness; must be ambulatory and able to self-care",
+      "access": "mixed",
+      "intakeNotes": "Call the residence for information about vacancies and admission. For a homeless shelter referral, you may also call Toronto Central Intake at 416-338-4766; for an assaulted women's shelter referral, call the Assaulted Women's Helpline at 416-863-0511.",
+      "requirements": [
+        "Women 18 years and older",
+        "Must be ambulatory and able to self-care"
+      ],
+      "transit": null,
+      "summary": "Evangeline Residence is a Salvation Army emergency shelter for women experiencing homelessness. It offers shelter and supports including meals, counselling, housing help, and referrals.",
+      "confidence": "medium",
+      "sources": [
+        "https://211ontario.ca/service/73467883/salvation-army-greater-toronto-housing-and-homelessness-supports-evangeline-residence/",
+        "https://torontohhs.org/shelters/evangeline-residence/",
+        "https://www.toronto.ca/wp-content/uploads/2023/08/8e2c-SDTG-2023-Release-FinalJuly-11AODA.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1039": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:04:22.006Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The program is described as transitional housing, while the directory says applicants may call for intake or come through an agency referral. The available information does not clearly establish whether direct self-referral is accepted, so access is listed as unknown."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1039",
+      "name": "SVDP St. Clare's Residence",
+      "phone": "416-225-3466",
+      "website": "https://ssvptoronto.ca/residential-emergency-housing/",
+      "whoServed": "Women aged 25 and older who have experienced difficulty maintaining housing",
+      "access": "unknown",
+      "intakeNotes": "Contact the residence by phone for intake. The directory also lists agency referrals; confirm the referral process directly with the residence. No walk-in procedure was verified.",
+      "requirements": [
+        "Women aged 25 or older",
+        "Experienced difficulty attaining or maintaining independent housing"
+      ],
+      "transit": "The operator lists TTC directions via Finch Station and the 42A bus to Cummer Avenue at Bayview Avenue.",
+      "summary": "St. Clare's Residence is a Society of Saint Vincent de Paul transitional housing program for women aged 25 and older. It offers supportive housing services intended to help residents work toward independent housing.",
+      "confidence": "medium",
+      "sources": [
+        "https://ssvptoronto.ca/residential-emergency-housing/",
+        "https://torontoservicedirectory.ca/record/69797393/society-of-saint-vincent-de-paul-st-clares-residence/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1041": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:08:46.325Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target and Turning Point’s contact page give the postal code as M4Y 2X9, while WoodGreen’s current Emergency Youth Shelter page lists M4Y 1J4 for 95 Wellesley Street East."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1041",
+      "name": "WoodGreen Emergency Youth Shelter (formerly Turning Point Youth Services Shelter)",
+      "phone": "416-925-9250 ext. 241",
+      "website": "https://www.woodgreen.org/programs/emergency-youth-shelter",
+      "whoServed": "Homeless or street-involved male and transgender youth who identify as male, ages 16–24",
+      "access": "unknown",
+      "intakeNotes": "WoodGreen says to contact the program to reserve a bed or learn more. Call 416-925-9250 ext. 241; the source does not specify whether walk-ins are accepted.",
+      "requirements": [
+        "For homeless or street-involved youth ages 16–24",
+        "For male youth and transgender youth who identify as male"
+      ],
+      "transit": "Turning Point’s contact page says the site is a few blocks east of Wellesley subway station.",
+      "summary": "WoodGreen operates this 35-bed, dormitory-style emergency shelter at 95 Wellesley Street East; the program was previously run by Turning Point Youth Services. The shelter provides accommodation and support for eligible youth, and WoodGreen advises contacting the program to reserve a bed.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.woodgreen.org/programs/emergency-youth-shelter",
+        "https://turningpoint.ca/programs/residential-care/",
+        "https://turningpoint.ca/get-in-touch/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1049": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:03:55.209Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The operator describes Elisa House as now operating as an emergency shelter, while 211 describes emergency shelter and longer-term housing. The current service description is therefore stated here as emergency shelter."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1049",
+      "name": "SVDP Elisa House",
+      "phone": "416-259-2528",
+      "website": "https://ssvptoronto.ca/residential-emergency-housing/",
+      "whoServed": "Single homeless women 18 years and older",
+      "access": "mixed",
+      "intakeNotes": "Call Elisa House for intake or contact them through an agency referral.",
+      "requirements": [],
+      "transit": "The operator lists Royal York Station on Line 2, then TTC route 76A to Newcastle Street.",
+      "summary": "Elisa House is operated by the Society of Saint Vincent de Paul Toronto and provides emergency shelter for women. The operator describes it as supporting women who have difficulty accessing or maintaining independent housing.",
+      "confidence": "medium",
+      "sources": [
+        "https://ssvptoronto.ca/residential-emergency-housing/",
+        "https://211central.ca/record/69797396/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1050": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:03:35.465Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1050",
+      "name": "SVDP Amelie House",
+      "phone": "416-465-0475",
+      "website": "https://ssvptoronto.ca/residential-emergency-housing/",
+      "whoServed": "Single homeless women 18 years and older",
+      "access": "mixed",
+      "intakeNotes": "Contact Amelie House to ask about an application; 211 also lists agency referral as an application route. Do not assume walk-in access.",
+      "requirements": [
+        "For single homeless women 18 years and older"
+      ],
+      "transit": "The operator lists Pape Station on Line 2 and the 72C bus to Carlaw Avenue at Queen Street East; continue south on Carlaw, then walk to Pape Avenue.",
+      "summary": "Amelie House is operated by the Society of Saint Vincent de Paul and provides longer-term emergency accommodation for women in Toronto’s Leslieville neighbourhood. The operator describes it as a 20-bed shelter with on-site support.",
+      "confidence": "high",
+      "sources": [
+        "https://ssvptoronto.ca/residential-emergency-housing/",
+        "https://211central.ca/record/69797387/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1051": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:47:04.567Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The City’s 2018 shelter allocation lists 16 beds for COSTI Reception Centre in the Mixed Adult emergency sector. 211 lists a total centre capacity of 77, including 16 single beds for refugee claimants; these figures appear to describe different scopes, so the total capacity for this specific City shelter program is not established."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1051",
+      "name": "COSTI Reception Centre",
+      "phone": "416-922-6688",
+      "website": "https://www.costi.org/",
+      "whoServed": "Government-sponsored refugees and refugee claimants referred by Canada, IRCC, or the City of Toronto",
+      "access": "referral",
+      "intakeNotes": "211 lists agency referrals as the application process. Contact COSTI for intake details; the centre says required documents may vary.",
+      "requirements": [
+        "Referral for government-sponsored refugees or refugee claimants through Canada, IRCC, or the City of Toronto",
+        "Greater Toronto Area residency requirement",
+        "Required documents may vary; contact COSTI for details"
+      ],
+      "transit": "211 lists Bathurst Street and College Street as the cross streets; a nearest transit stop was not verified.",
+      "summary": "COSTI's Ralph Chiodo Family Immigrant Reception Centre provides temporary accommodation, orientation, and settlement support for refugees and refugee claimants. 211 describes agency referrals and lists the centre as open 24 hours.",
+      "confidence": "medium",
+      "sources": [
+        "https://211ontario.ca/service/69794878/costi-ralph-chiodo-family-immigrant-reception-centre/",
+        "https://www.costi.org/",
+        "https://www.toronto.ca/legdocs/mmis/2018/cd/bgrd/backgroundfile-115727.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1052": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:44:20.203Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1052",
+      "name": "Christie Refugee Welcome Centre",
+      "phone": "416-588-9277",
+      "website": "https://christiestreetrc.com/",
+      "whoServed": "Refugee claimant families who have been in Canada less than 6 months",
+      "access": "referral",
+      "intakeNotes": "Call Toronto Central Intake at 1-877-338-3398 to find emergency shelter and request a bed. The centre’s website says Central Intake is available 24/7.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Christie Refugee Welcome Centre provides emergency shelter and settlement support for refugee claimant families. Support includes orientation, basic needs assistance, and help with the refugee claim process and housing referrals.",
+      "confidence": "high",
+      "sources": [
+        "https://211ontario.ca/service/69800143/christie-refugee-welcome-centre-crwc-emergency-shelter-and-support-for-refugees/",
+        "https://christiestreetrc.com/contact/",
+        "https://christiestreetrc.com/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1053": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:50:09.518Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The supplied target classifies the location's overnight service type as Shelter, while Fife House describes Denison as long-term transitional supportive housing. The sources reviewed do not establish that it provides emergency shelter beds."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1053",
+      "name": "Fife House Denison Ave",
+      "phone": "416-205-9888",
+      "website": "https://www.fifehouse.org/supportive-housing-programs/",
+      "whoServed": "Adults living with HIV/AIDS who require support",
+      "access": "unknown",
+      "intakeNotes": "Call Fife House for information about applying; 211 says housing locations vary and appointments should be arranged by phone. The available information does not confirm walk-in or emergency-bed intake.",
+      "requirements": [
+        "For adults living with HIV/AIDS who require support"
+      ],
+      "transit": null,
+      "summary": "Fife House describes Denison as a five-unit supportive housing program with on-site 24/7 support, case management and practical assistance. It is described as long-term transitional housing, not as a walk-in emergency shelter.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.fifehouse.org/supportive-housing-programs/",
+        "https://211ontario.ca/service/76374009/fife-house-transitional-and-supportive-housing-programs/",
+        "https://www.torontocentralhealthline.ca/displayService.aspx?id=192586"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1054": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:50:34.145Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target classifies the location as a shelter, while Fife House describes it as a nine-month transitional supportive housing program.",
+      "Eligibility age descriptions differ: 211 Ontario describes adults living with HIV/AIDS, while the Ligne Santé listing says people 16 years and older. The profile does not specify an age."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1054",
+      "name": "Fife House Sherbourne St",
+      "phone": "416-205-9888",
+      "website": "https://www.fifehouse.org/supportive-housing-programs/transitional-housing-programs/",
+      "whoServed": "People living with HIV/AIDS who need support",
+      "access": "unknown",
+      "intakeNotes": "Call Fife House for information and application details. 211 says documents may vary; specific arrival or bed-intake instructions are not published.",
+      "requirements": [
+        "Eligibility information lists people living with HIV/AIDS who require support."
+      ],
+      "transit": null,
+      "summary": "Fife House operates the Sherbourne Transitional Housing Program, an 11-client supportive housing program intended to help people move toward long-term housing. The operator describes a nine-month stay with private furnished units, shared facilities, and 24/7 staff support.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.fifehouse.org/supportive-housing-programs/transitional-housing-programs/",
+        "https://211ontario.ca/service/76374009/fife-house-transitional-and-supportive-housing-programs/",
+        "https://lignesantecentre-toronto.ca/displayService.aspx?id=198003"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1055": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:50:50.049Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1055",
+      "name": "Bethlehem United Shelter",
+      "phone": "416-644-1734",
+      "website": "https://www.fredvictor.org/what-we-do/housing/shelters/",
+      "whoServed": "Adults 18+ of all genders, including singles and couples",
+      "access": "mixed",
+      "intakeNotes": "For emergency shelter, call 311 or Central Intake at 416-338-4766 (toll-free 1-877-338-3398). The shelter also accepts self-referrals by calling 416-644-1743, agency referrals, and walk-ins when a bed is available.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Bethlehem United Shelter is a 70-bed shelter operated by Fred Victor with Bethlehem United Church (Apostolic) and the City of Toronto. It serves adults of all genders, including singles and couples, and is pet-friendly and wheelchair-accessible.",
+      "confidence": "high",
+      "sources": [
+        "https://www.fredvictor.org/location-information/",
+        "https://www.fredvictor.org/what-we-do/housing/shelters/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1062": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:10:12.843Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1062",
+      "name": "YWCA 1st Stop Woodlawn Shelter",
+      "phone": "416-923-8454 (office); 416-922-3271 (crisis line)",
+      "website": "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter/1ststopwoodlawnshelter",
+      "whoServed": "People aged 16 and older who identify as women or gender diverse",
+      "access": "unknown",
+      "intakeNotes": "Call 416-923-8454 for information about vacancies and admission; call 416-922-3271 for the crisis line. 211 says to call for details on the admission procedure.",
+      "requirements": [
+        "Age 16 or older",
+        "Identify as a woman or gender diverse",
+        "In need of shelter or fleeing violence"
+      ],
+      "transit": "The shelter is two blocks north of Summerhill subway station.",
+      "summary": "YWCA Toronto operates 1st Stop Woodlawn Shelter, a free shelter for people aged 16 and older who identify as women or gender diverse and need shelter or are fleeing violence. It provides accommodation and support services, including help finding housing and counselling.",
+      "confidence": "high",
+      "sources": [
+        "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter/1ststopwoodlawnshelter",
+        "https://211central.ca/record/75975064/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1064": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:09:33.350Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1064",
+      "name": "Youth Without Shelter",
+      "phone": "416-748-0110",
+      "website": "https://yws.on.ca/",
+      "whoServed": "Youth ages 16–24 experiencing homelessness or housing insecurity",
+      "access": "mixed",
+      "intakeNotes": "For urgent shelter help, call 416-748-0110 and press 0. 211 also lists calling or dropping in; call ahead to ask about availability and intake.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Youth Without Shelter provides emergency accommodation and support services for youth experiencing homelessness in North Etobicoke. Services include crisis counselling and help with housing, education, and other needs.",
+      "confidence": "high",
+      "sources": [
+        "https://yws.on.ca/get-help-now/",
+        "https://yws.on.ca/",
+        "https://211central.ca/record/75974843/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1065": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:06:17.450Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1065",
+      "name": "TSSS Family Residence",
+      "phone": "416-338-4766 or 1-877-338-3398 (Toronto Central Intake)",
+      "website": null,
+      "whoServed": "Families",
+      "access": "referral",
+      "intakeNotes": "Call Toronto Central Intake for shelter placement. 211 says there is no walk-in service.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Toronto Shelter and Support Services lists 4222 Kingston Road as a Family program site. Emergency shelter placements are arranged through Toronto Central Intake, which 211 lists as open 24/7.",
+      "confidence": "medium",
+      "sources": [
+        "https://211central.ca/record/69800042/site/",
+        "https://211central.ca/record/69800103/",
+        "https://211central.ca/record/69800035/agency/",
+        "https://www.toronto.ca/legdocs/mmis/2024/ba/bgrd/backgroundfile-251885.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1066": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:56:13.137Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The current City page identifies the shelter as 4674 Kingston Rd.; an older City telephone directory lists Kingston Residence at 4680 Kingston Rd. and gives 437-245-7512. Because the directory's address differs and is dated, the phone number is left unverified and null."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1066",
+      "name": "Kingston Residence SWS",
+      "phone": null,
+      "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/about-torontos-shelter-system/developing-shelter-sites/4674-kingston-rd/",
+      "whoServed": "Families",
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": "The City of Toronto operates the shelter at 4674 Kingston Rd. for families experiencing homelessness. The City describes it as a 24/7 program offering case management and supports to help families work toward permanent housing.",
+      "confidence": "high",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/about-torontos-shelter-system/developing-shelter-sites/4674-kingston-rd/",
+        "https://www.toronto.ca/wp-content/uploads/2017/12/9514-shelter_support_housing.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1069": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:59:13.202Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "Eligibility descriptions differ: 211 Central lists homeless women with children and certain pregnant women or family-reunification situations, while CAMH’s May 2024 shelter list describes eligibility more broadly as women 16+ who are homeless or at risk and pregnant or have children. The profile uses the more specific 211 Central description. https://211central.ca/record/72506058/ ; https://www.camh.ca/-/media/health-info-files/community-resource-sheets/shelters-toronto-pdf.pdf"
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1069",
+      "name": "Robertson House",
+      "phone": "416-392-5662",
+      "website": null,
+      "whoServed": "Women 16+ who are homeless with children up to 17; some pregnant women may also be eligible.",
+      "access": "referral",
+      "intakeNotes": "Call Toronto Central Intake at 416-338-4766 or 1-877-338-3398 for a shelter referral. Beds depend on availability; Central Intake is available 24/7.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Robertson House is a short-term emergency shelter for women and families, with food and basic necessities. Listed supports include counselling, referrals for housing and other services, and pregnancy support.",
+      "confidence": "medium",
+      "sources": [
+        "https://211central.ca/record/72506058/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1080": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:55:56.983Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The operator page gives the closest intersection as Pape Ave and O'Connor Ave; 211 lists Pape Ave and O'Connor Dr."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1080",
+      "name": "Kennedy House Youth Shelter",
+      "phone": "416-421-7776",
+      "website": "https://kennedyhouse.org/services/youth-shelter/",
+      "whoServed": "Youth ages 16–24 experiencing homelessness",
+      "access": "mixed",
+      "intakeNotes": "Call Kennedy House for information about vacancies and admission, or call Toronto Central Intake at 416-338-4766 or 1-877-338-3398 for available shelter beds and referrals. Availability changes, so a bed is not guaranteed.",
+      "requirements": [
+        "Youth ages 16–24",
+        "Experiencing homelessness or at risk of homelessness"
+      ],
+      "transit": null,
+      "summary": "Kennedy House provides emergency shelter and support services for youth ages 16–24 experiencing homelessness. Its services include counselling, case management, and support with housing and employment.",
+      "confidence": "high",
+      "sources": [
+        "https://kennedyhouse.org/services/youth-shelter/",
+        "https://211ontario.ca/service/69795603/kennedy-house-kennedy-house-youth-shelter/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1081": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:51:46.176Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The operator's webpage says applicants should be newly homeless or have entered the shelter system for the first time within the prior 12 months; the 211 listing describes eligibility more generally as experiencing homelessness and staying at an emergency shelter. The sources also differ in the details they give about application documents and program fees: Fred Victor lists proof of income, identification, and proof of status, while 211 additionally lists a CRA Notice of Assessment and a My Access to Housing Toronto application, and reports a variable occupancy fee. Confirm current eligibility, documentation, and fees with Fred Victor."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1081",
+      "name": "Fred Victor Mary Sheffield House",
+      "phone": "416-644-1736",
+      "website": "https://www.fredvictor.org/what-we-do/housing/transitional-housing/",
+      "whoServed": "Cis and trans women aged 55+ with complex support needs",
+      "access": "referral",
+      "intakeNotes": "This is a referral-based program, not a walk-in shelter. Fred Victor says applicants must be referred by a case manager from a Toronto shelter; the 211 listing says a shelter/referral worker completes the program assessment form. Call Fred Victor for intake information.",
+      "requirements": [
+        "Women aged 55 or older; the program serves cis and trans women.",
+        "Referral by a case manager from a Toronto shelter.",
+        "Fred Victor says applicants should be newly homeless or have entered the shelter system for the first time within the prior 12 months.",
+        "Must be mobile, able to live independently, and provide proof of income, identification, and proof of status.",
+        "Pets are permitted; Fred Victor says pets must be licensed and vaccinated before moving in."
+      ],
+      "transit": null,
+      "summary": "Mary Sheffield House is a 26-bed transitional shelter operated by Fred Victor for women aged 55 and older who have complex support needs. The program offers case management and housing support, and accepts residents' pets.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.fredvictor.org/what-we-do/housing/transitional-housing/",
+        "https://www.fredvictor.org/location-information/",
+        "https://good2talk.search211.ca/record/69798438/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1096": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:09:03.223Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The YMCA youth-housing page lists the shelter address postal code as M5V 2A8, while 211 and the YMCA location page list 7 Vanauley St as M5T 2V9. The target also gives M5T 2V9."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1096",
+      "name": "Wagner Green YMCA",
+      "phone": "416-504-9700",
+      "website": "https://www.ymcagta.org/youth-programs/youth-housing",
+      "whoServed": "Self-identified young men, ages 16–24, who are homeless or at risk of homelessness",
+      "access": "unknown",
+      "intakeNotes": "Call 416-504-9700 for current vacancy and intake details. 211 says required documents may vary; contact the shelter for information.",
+      "requirements": [
+        "Self-identified young men, ages 16–24",
+        "Homeless or at risk of homelessness"
+      ],
+      "transit": null,
+      "summary": "Wagner Green YMCA is a 24-hour emergency shelter operated by YMCA of Greater Toronto, with 40 beds and no maximum stay listed by 211. It offers harm-reduction and trauma-informed residential services, case management, and support finding and maintaining permanent, affordable housing. The shelter is described as a 2SLGBTQ+ positive space.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.ymcagta.org/youth-programs/youth-housing",
+        "https://211central.ca/record/75974820/",
+        "https://www.ymcagta.org/find-a-y/wagner-green-ymca"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1099": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:51:26.049Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1099",
+      "name": "Fred Victor Centre Transition to Housing Dundas St E",
+      "phone": null,
+      "website": "https://www.fredvictor.org/what-we-do/housing/transitional-housing/",
+      "whoServed": "Women aged 18+ who are newly homeless or have been in the shelter system for the first time within the past 12 months",
+      "access": "referral",
+      "intakeNotes": "Applicants must be referred by a case manager from a Toronto shelter. The operator says participants should be mobile and able to live independently.",
+      "requirements": [
+        "Identify as a woman and be aged 18 or older",
+        "Be newly homeless or have been in the shelter system for the first time within the past 12 months",
+        "Be mobile and able to live independently",
+        "Have proof of income, identification, and proof of status",
+        "Be actively working toward personal goals",
+        "Pets must be licensed and vaccinated"
+      ],
+      "transit": null,
+      "summary": "Fred Victor’s Women’s Transition to Housing is a 37-bed, 12-month transitional housing program for women referred from Toronto shelters. It provides individual units, 24/7 staffing, and support toward finding housing and building an independent life.",
+      "confidence": "high",
+      "sources": [
+        "https://www.fredvictor.org/what-we-do/housing/transitional-housing/",
+        "https://www.fredvictor.org/location-information/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1101": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:09:20.012Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1101",
+      "name": "YMCA Sprott House",
+      "phone": "647-438-8383",
+      "website": "https://www.ymcagta.org/youth-programs/youth-housing",
+      "whoServed": "2SLGBTQIA+ youth ages 16–24 who are homeless or underhoused",
+      "access": "mixed",
+      "intakeNotes": "The YMCA currently says applications are closed; check its youth housing page for updates. When applications are open, applicants can self-refer or be referred by a service provider, and the process includes an application, assessment and interview. Contact the program by phone or email with questions.",
+      "requirements": [
+        "Applicants are ages 16–24 and identify as 2SLGBTQIA+; applicants experiencing circumstances that compromise their safety receive priority.",
+        "Applicants must be homeless or underhoused and meet the Greater Toronto Area residency requirement.",
+        "The program expects participants to be working toward independent living, have a source of income, and manage tasks such as cooking, grocery shopping and cleaning."
+      ],
+      "transit": null,
+      "summary": "YMCA Sprott House is a YMCA of Greater Toronto transitional housing program for 2SLGBTQIA+ youth. It offers supported residential living, case management and related supports; the operator currently reports that applications are closed.",
+      "confidence": "high",
+      "sources": [
+        "https://www.ymcagta.org/youth-programs/youth-housing",
+        "https://www.ymcagta.org/youth-programs/youth-housing/Sprott-House-Application",
+        "https://211central.ca/record/76034853/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1102": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:45:25.024Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1102",
+      "name": "CONC Men's Shelter Bloor St W",
+      "phone": "416-792-8941",
+      "website": "https://www.conccommunity.org/shelter-bloor/",
+      "whoServed": "Men experiencing homelessness",
+      "access": "referral",
+      "intakeNotes": "To seek a place at a CONC shelter, call 311 or Toronto Central Intake at 416-338-4766 (toll-free: 1-877-338-3398).",
+      "requirements": [],
+      "transit": null,
+      "summary": "Christie Ossington Neighbourhood Centre operates this men’s shelter at 850 Bloor Street West. The operator describes it as providing overnight shelter and support, with referrals through Toronto Central Intake.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.conccommunity.org/shelter-bloor/",
+        "https://www.conccommunity.org/get-involved/shelter-housing/",
+        "https://www.conccommunity.org/contact/",
+        "https://www.toronto.ca/legdocs/mmis/2015/cd/bgrd/backgroundfile-84311.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1103": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:07:41.989Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The City describes 1677 Wilson Ave. as serving adults of all genders, including couples, with approximately 200 beds. The 211 listing for Toronto Plaza Hotel calls it a family shelter, lists individuals, couples and families as eligible, and reports 387 beds. The sources differ on the site’s service scope and bed count; the City’s current location page is used for the profile."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1103",
+      "name": "TSSS North York West Hotel Program",
+      "phone": "416-338-4766",
+      "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/about-torontos-shelter-system/developing-shelter-sites/1677-wilson-avenue/",
+      "whoServed": "Adults of all genders, including couples",
+      "access": "referral",
+      "intakeNotes": "Call the City of Toronto’s Central Intake for emergency shelter referrals. Available spaces depend on current demand and the caller’s needs.",
+      "requirements": [],
+      "transit": null,
+      "summary": "The City-operated shelter at 1677 Wilson Ave. provides emergency accommodation for adults of all genders, including couples. On-site supports include meals, laundry, case management and health services.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/about-torontos-shelter-system/developing-shelter-sites/1677-wilson-avenue/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+        "https://211ontario.ca/service/76395399/toronto-shelter-and-support-services-toronto-plaza-hotel-family-shelter/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1108": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:54:15.257Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "Shelter capacity differs across Homes First pages: the current property listing says it can serve up to 61 women, while a Homes First page dated November 30, 2021 reports 47 beds. Capacity is not included in this profile."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1108",
+      "name": "HFS Kennedy Rd Women's Shelter",
+      "phone": "416-214-1870",
+      "website": "https://homesfirst.on.ca/hf_property/kennedy-road-shelter/",
+      "whoServed": "Self-identified women aged 18 and over",
+      "access": "referral",
+      "intakeNotes": "Call 311 or Toronto Central Intake at 416-338-4766 (toll-free: 1-877-338-3398) to ask about shelter access.",
+      "requirements": [
+        "For self-identified women aged 18 and over"
+      ],
+      "transit": "Homes First lists Kennedy Station and the Kennedy Rd and Eglinton intersection.",
+      "summary": "Homes First Society operates this emergency shelter for self-identified women experiencing homelessness. Services include temporary accommodation, meals, laundry, recreational programming, and case management supports.",
+      "confidence": "high",
+      "sources": [
+        "https://homesfirst.on.ca/hf_property/kennedy-road-shelter/",
+        "https://homesfirst.on.ca/kennedy-road-shelter/",
+        "https://211ontario.ca/service/69795293/homes-first-society-kennedy-road-shelter-for-women/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1114": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:47:27.948Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "A shelter listing based on City data identifies both COVID-19 Response and Temporary Refugee Response family programs at 55 Hallcrown Place. It does not establish whether those are distinct operating programs or how they relate to this target."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1114",
+      "name": "COSTI Uptown Hotel Program",
+      "phone": null,
+      "website": "https://costi.org/",
+      "whoServed": "Families",
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": "This is a family-sector hotel shelter program at 55 Hallcrown Place. A listing based on City shelter occupancy data associates the program with COSTI Immigrant Services; public program-specific intake details were not verified.",
+      "confidence": "medium",
+      "sources": [
+        "https://cityinfo.ca/toronto/dataset/b63c506b-084c-42d4-96f6-de485b7f988e/records/512db43c-7de4-4553-b48b-72d068d6f9e8",
+        "https://www.toronto.ca/legdocs/mmis/2025/gg/bgrd/backgroundfile-259292.pdf",
+        "https://costi.org/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1123": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:07:21.556Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "A City report listed 3600 Steeles Avenue West with a planned site end date of April 30, 2023; the supplied target indicates occupancy on 2026-11-10. Whether the site continued under an extension or a later arrangement was not verified."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1123",
+      "name": "TSSS North Hotel Program",
+      "phone": null,
+      "website": null,
+      "whoServed": "Mixed adults",
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": "The target identifies this as the TSSS North Hotel Program at 3600 Steeles Ave W, serving mixed adults. A City report lists that address among temporary emergency shelter sites, but current public intake details and operating arrangements could not be verified.",
+      "confidence": "low",
+      "sources": [
+        "https://www.toronto.ca/legdocs/mmis/2022/ec/bgrd/backgroundfile-222834.pdf",
+        "https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1124": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:05:02.006Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target lists sector as “Mixed Adult” but programName as “TSSS Downtown Hotel Women’s Program.” The available City source confirms use of the property as a TSSS hotel shelter but does not resolve this program-level discrepancy.",
+      "The City report refers to the property as “77 Ryerson Road” in one table and “77 Ryerson Avenue” in another; the target gives 77 Ryerson Ave."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1124",
+      "name": "TSSS Downtown Hotel Program",
+      "phone": null,
+      "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+      "whoServed": null,
+      "access": "referral",
+      "intakeNotes": "Contact the City’s Central Intake for help accessing emergency shelter; the City says it provides referrals to emergency shelter and other overnight accommodation. Call 416-338-4766 or 311. This is general City guidance, not a verified site-specific intake procedure.",
+      "requirements": [],
+      "transit": null,
+      "summary": "The City identifies 77 Ryerson Avenue as a property used for a Toronto Shelter and Support Services hotel shelter. The target information identifies the program as women’s, while also listing the site sector as Mixed Adult; confirm which description applies to this profile.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+        "https://www.toronto.ca/legdocs/mmis/2025/gg/bgrd/backgroundfile-259292.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1126": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:00:27.530Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "211 Ontario lists the address as 29/29A Leslie St; the target gives 29A Leslie St."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1126",
+      "name": "SA New Hope Leslieville",
+      "phone": "647-362-3062",
+      "website": null,
+      "whoServed": "Men",
+      "access": "unknown",
+      "intakeNotes": "211 Ontario lists 1-877-338-3398 as a toll-free contact and 416-338-4766 as a crisis contact. Confirm the intake route by phone; the sources reviewed do not establish whether walk-ins are accepted.",
+      "requirements": [],
+      "transit": null,
+      "summary": "New Hope Leslieville is an emergency shelter operated by The Salvation Army for men. 211 Ontario describes meals, supportive services, referrals, and help finding and keeping permanent housing.",
+      "confidence": "medium",
+      "sources": [
+        "https://211ontario.ca/results/?latitude=43.653226&longitude=-79.3831843&searchLocation=Toronto&searchTerms=&topicPath=105",
+        "https://cityinfo.ca/toronto/dataset/b63c506b-084c-42d4-96f6-de485b7f988e/records/425750ff-f7ff-4804-ad8b-90e72fc28769"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1129": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:10:32.758Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The YWCA Toronto page lists 73 beds, while 211 Central lists a capacity of 53. Capacity is omitted from the profile because the sources disagree."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1129",
+      "name": "YWCA Davenport Shelter",
+      "phone": "416-922-1001",
+      "website": "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter/davenportshelter",
+      "whoServed": "People 16 and older who identify as women or gender diverse and need shelter or are fleeing violence",
+      "access": "mixed",
+      "intakeNotes": "Contact the shelter directly for intake information and health screening, or call Toronto Central Intake at 416-338-4766 (toll-free 1-877-338-3398). Confirm current availability before going.",
+      "requirements": [],
+      "transit": "Near Davenport Road and Dupont Street, east of Dupont Station.",
+      "summary": "YWCA Toronto operates this emergency shelter for women and gender-diverse people aged 16 and older. It offers 24-hour staffing, meals, support services, and a pet-friendly environment.",
+      "confidence": "high",
+      "sources": [
+        "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter/davenportshelter",
+        "https://211central.ca/record/75998359/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1130": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:52:00.997Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The supplied target name is “Fred Victor Uptown Hotel Program,” while Fred Victor’s current public pages identify the location as “Edward Village Hotel” and the shelter as “Edward Hotel Emergency Shelter.” The address matches; the public-facing name differs."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1130",
+      "name": "Fred Victor Uptown Hotel Program",
+      "phone": "647-746-4985",
+      "website": "https://www.fredvictor.org/what-we-do/housing/shelters/",
+      "whoServed": "Adults 18+, including women, men, singles, couples, and LGBTQ2+ couples experiencing homelessness",
+      "access": "mixed",
+      "intakeNotes": "The operator says access is available through Central Intake, walk-ins, self-referrals, and community-partner referrals. For emergency shelter assistance, call 311 or Central Intake at 416-338-4766.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Fred Victor operates an emergency hotel shelter at 185 Yorkland Blvd. for adults experiencing homelessness, including singles and couples. The program offers housing support, enhanced case management, and mental health and addictions counselling.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.fredvictor.org/what-we-do/housing/shelters/",
+        "https://www.fredvictor.org/location-information/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1132": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:02:11.493Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1132",
+      "name": "Sojourn House Hotel Program",
+      "phone": "416-743-8877",
+      "website": "https://www.sojournhouse.org/",
+      "whoServed": "Refugee and refugee-claimant families",
+      "access": "referral",
+      "intakeNotes": "For families, 211 says to call Toronto Central Intake at 416-338-4766. Its listing also describes referrals from community agencies; call ahead to confirm the current process.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Sojourn House operates a family shelter at 165 Grange Ave for refugees and refugee claimants. The organization describes emergency shelter and wraparound support for residents.",
+      "confidence": "high",
+      "sources": [
+        "https://211ontario.ca/service/69797406/sojourn-house-sojourn-house/",
+        "https://www.sojournhouse.org/who-we-are/contact-us/",
+        "https://www.sojournhouse.org/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1146": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:00:02.366Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "Shelter capacity differs across sources: 211 Ontario and a 2025 Salvation Army letter report 83 beds, while the operator’s shelter page says 45 beds. The operator page was last modified in 2024; capacity is not stated in this profile."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1146",
+      "name": "SA Islington Seniors' Shelter",
+      "phone": "416-366-2776",
+      "website": "https://torontohhs.org/shelters/islington-seniors-shelter/",
+      "whoServed": "Men aged 55+; the shelter serves women and men aged 55+.",
+      "access": "referral",
+      "intakeNotes": "Call the City of Toronto’s Central Intake at 416-338-4766 or 1-877-338-3398 for a shelter referral. Referrals depend on available space; contact Central Intake rather than arriving without a referral.",
+      "requirements": [
+        "Men aged 55+",
+        "Experiencing homelessness or at risk of homelessness"
+      ],
+      "transit": null,
+      "summary": "The Salvation Army operates Islington Seniors’ Shelter, an emergency shelter for older adults in North Etobicoke. The shelter provides case management and assistance finding permanent housing.",
+      "confidence": "medium",
+      "sources": [
+        "https://torontohhs.org/shelters/islington-seniors-shelter/",
+        "https://211north.ca/record/75896643/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+        "https://www.toronto.ca/legdocs/mmis/2025/ph/comm/communicationfile-189110.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1147": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:09:57.110Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target lists postal code M1L 4A1, while YouthLink and 211 list the shelter address as 747 Warden Ave, M1L 4A8.",
+      "The YouthLink shelter page lists 416-864-4444 without an extension; YouthLink's contact page and 211 list ext. 300."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1147",
+      "name": "YouthLink",
+      "phone": "416-864-4444 ext. 300",
+      "website": "https://youthlink.ca/services/our-programs/housing-and-shelter/youthlink-shelter/",
+      "whoServed": "Youth aged 16–24 who are unhoused or experiencing housing instability",
+      "access": "referral",
+      "intakeNotes": "Contact Toronto Central Intake to request emergency shelter. Beds are offered as they become available; YouthLink says requests are managed through Central Intake.",
+      "requirements": [
+        "Photo ID (listed as required by 211)"
+      ],
+      "transit": "About a 10-minute walk from Warden TTC Station.",
+      "summary": "YouthLink operates a 24/7 emergency shelter for youth aged 16–24, with meals, case management, and other supports. The shelter is pet-friendly; emergency bed access is through Toronto Central Intake.",
+      "confidence": "high",
+      "sources": [
+        "https://youthlink.ca/services/our-programs/housing-and-shelter/youthlink-shelter/",
+        "https://youthlink.ca/contact-us/",
+        "https://211ontario.ca/service/69795376/youthlink-toronto-youth-transition-home-and-emergency-shelter/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1150": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:53:55.536Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The September 2026 transition notice, quoting a Homes First representative, says the site is closed to clients. The 211 listing, last verified May 21, 2026, still presents it as an operating shelter. Current service status is therefore treated as closed based on the later notice, but the 211 record appears not to have been updated."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1150",
+      "name": "Bathurst-Lake Shore Shelter",
+      "phone": null,
+      "website": "https://homesfirst.on.ca/bathurst-lakeshore-shelter/",
+      "whoServed": "Adults 18+ and couples experiencing homelessness",
+      "access": "unknown",
+      "intakeNotes": "A September 2026 transition notice says the shelter is closed to clients. It does not describe a current intake process.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Homes First operated this City shelter for adults and couples, with case-management and other supports. A September 2026 notice says it has closed to clients; a 211 listing still describes the service, so that listing may not reflect its current status.",
+      "confidence": "medium",
+      "sources": [
+        "https://homesfirst.on.ca/bathurst-lakeshore-shelter/",
+        "https://www.toronto.ca/legdocs/mmis/2019/gl/bgrd/backgroundfile-139667.pdf",
+        "https://www.bqna.ca/post/transition-plan-for-the-now-closed-shelter-at-545-lake-shore",
+        "https://211north.ca/record/69795296/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1151": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:08:02.999Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target record labels the sector \"Mixed Adult,\" while the 211 listing describes eligibility as men 55 years and older with a history of using the hostel system."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1151",
+      "name": "Scarborough Village Residence",
+      "phone": "416-392-5798",
+      "website": "https://www.toronto.ca/housing",
+      "whoServed": "Men 55 years and older with a history of using the hostel system",
+      "access": "referral",
+      "intakeNotes": "The directory lists admission by referral through Seaton House or most men's shelters in Toronto. Contact the residence to confirm current intake details.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Scarborough Village Residence is a City of Toronto shelter residence offering case management, social supports, crisis intervention, referrals, advocacy, health services, recreation and life-skills programs. The directory reports 24-hour staffing and capacity for 93 people.",
+      "confidence": "medium",
+      "sources": [
+        "https://211ontario.ca/service/70080655/toronto-shelter-support-and-housing-services-homelessness-initiatives-and-prevention-services-scarborough-village-residence/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+        "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/harm-reduction-supplies-and-locations/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1153": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:55:22.792Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1153",
+      "name": "HFS Willowdale Centre",
+      "phone": null,
+      "website": "https://homesfirst.on.ca/",
+      "whoServed": "Men in a refugee shelter program",
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": "The target is a men’s shelter program at 5800 Yonge St associated with the Willowdale Centre. A City shelter progress report identifies Homes First Society as the operator of Willowdale Centre, but the sources reviewed did not establish current location-specific intake instructions or contact details.",
+      "confidence": "medium",
+      "sources": [
+        "https://ccla.org/wp-content/uploads/2021/09/Progress-Report-November-16-2020-Final_Redacted.pdf",
+        "https://homesfirst.on.ca/our-programs/",
+        "https://sheltervoicesto.github.io/GTAShelterSystem/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1154": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:06:56.810Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The City of Toronto listing gives 416-392-4563, while 211 lists 416-392-4564 as the office number. The direct shelter phone is left null because the sources differ."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1154",
+      "name": "Junction Place",
+      "phone": null,
+      "website": null,
+      "whoServed": "Men",
+      "access": "referral",
+      "intakeNotes": "For emergency shelter, contact the City of Toronto’s 24/7 Central Intake by calling 416-338-4766, 1-877-338-3398, or 311. Central Intake refers callers to available shelter spaces; availability and placement may vary.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Junction Place is a City of Toronto shelter for men at 731 Runnymede Road. Emergency shelter referrals are handled through the City’s Central Intake service.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/harm-reduction-supplies-and-locations/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+        "https://211ontario.ca/results/?latitude=43.653226&longitude=-79.383184&pg=2&sd=25&ss=Distance&topicPath=105"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1155": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:01:27.649Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "211 Central describes the service as a drop-in respite centre, while Warden Woods describes it as shelter services with double-occupancy rooms. The sources differ in how they characterize the service."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1155",
+      "name": "Warden Woods Kingston Road Shelter",
+      "phone": "416-639-6766",
+      "website": "https://wardenwoods.com/programs/shelter-services/",
+      "whoServed": "Adults of all genders experiencing homelessness",
+      "access": "referral",
+      "intakeNotes": "To access a bed in Toronto’s shelter system, call Central Intake at 416-338-4766. For information from the shelter, call 416-639-6766.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Warden Woods operates a low-barrier shelter at 4584 Kingston Road for adults of all genders. The operator describes meals, bedding, double-occupancy rooms, and housing-focused support.",
+      "confidence": "high",
+      "sources": [
+        "https://wardenwoods.com/programs/shelter-services/",
+        "https://211central.ca/record/94637023/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1160": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:45:08.266Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target lists postal code M9W 6P8, while CONC’s page for 445 Rexdale Boulevard lists M9W 6K5."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1160",
+      "name": "CONC Etobicoke Hotel Program",
+      "phone": "416-338-4766",
+      "website": "https://www.conccommunity.org/shelter-rexdale/",
+      "whoServed": "Mixed adults",
+      "access": "unknown",
+      "intakeNotes": "For emergency shelter assistance, call the City of Toronto’s Central Intake at 416-338-4766 or 311. The sources do not confirm whether this specific site accepts walk-ins.",
+      "requirements": [],
+      "transit": null,
+      "summary": "The Hotel Shelter at 445 Rexdale Blvd. is operated by Christie Ossington Neighbourhood Centre (CONC) in partnership with the City of Toronto. CONC describes the site as providing overnight shelter and integrated case management and health supports.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.conccommunity.org/shelter-rexdale/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+        "https://www.toronto.ca/legdocs/mmis/2022/ec/bgrd/backgroundfile-222834.pdf",
+        "https://www.toronto.ca/legdocs/mmis/2025/gg/bgrd/backgroundfile-259292.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1163": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:05:51.326Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "A CityInfo record for a similarly named but differently titled “CONC Etobicoke Hotel Program” identifies Christie Ossington Neighbourhood Centre as operator and gives 445 Rexdale Blvd as its location. The available information does not establish whether that program is related to the target, so its operator and address have not been attributed to this profile."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1163",
+      "name": "TSSS Etobicoke Hotel Program",
+      "phone": null,
+      "website": null,
+      "whoServed": "Mixed adult",
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": null,
+      "confidence": "low",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+        "https://www.toronto.ca/city-government/accountability-operations-customer-service/city-administration/staff-directory-divisions-and-customer-service/toronto-shelter-support-services/",
+        "https://cityinfo.ca/toronto/dataset/b63c506b-084c-42d4-96f6-de485b7f988e/records/6fbed7e1-e533-4a7a-bd32-8a49d5d76e67"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1166": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:00:44.700Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1166",
+      "name": "SA Scarborough Hotel Program",
+      "phone": null,
+      "website": null,
+      "whoServed": "Men",
+      "access": "unknown",
+      "intakeNotes": "The City advises people seeking emergency shelter to call 311 or Central Intake at 416-338-4766. Location-specific intake instructions for this program could not be verified.",
+      "requirements": [],
+      "transit": null,
+      "summary": "The supplied target identifies this as a men's motel/hotel shelter program at 50 Estate Dr. I could not verify the operating organization or location-specific service and intake details from the sources reviewed.",
+      "confidence": "low",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1168": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:53:03.413Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The shelter-system listing identifies the hotel program at 335 Jarvis St, while 211’s Good Shepherd Centre listing gives 412 Queen St E. These may be the hotel-program site and the operator’s main centre, respectively; the sources do not explicitly clarify the relationship."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1168",
+      "name": "Good Shepherd Centre West End Hotel Program",
+      "phone": "416-869-3619",
+      "website": "https://goodshepherd.ca/",
+      "whoServed": "Men 18+",
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": "The West End Hotel Program is listed as a men's motel/hotel shelter operated under Good Shepherd Centre. Good Shepherd’s general overnight shelter information describes service for adult men 18+ and mentions showers, toiletries, and breakfast; program-specific intake details and amenities were not verified.",
+      "confidence": "medium",
+      "sources": [
+        "https://sheltervoicesto.github.io/GTAShelterSystem/",
+        "https://goodshepherd.ca/shelter-support-services/",
+        "https://211central.ca/record/70720406/",
+        "https://goodshepherd.ca/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1172": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:46:07.570Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1172",
+      "name": "CONC West End Hotel Program",
+      "phone": "416-338-4766",
+      "website": "https://www.conccommunity.org/shelter-roncesvalles/",
+      "whoServed": "Men experiencing homelessness",
+      "access": "referral",
+      "intakeNotes": "For shelter placement, contact 311 or CONC’s Central Intake line at 416-338-4766. The operator does not publish a separate intake process for this location.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Christie Ossington Neighbourhood Centre operates this hotel shelter in partnership with the City of Toronto. The operator describes it as overnight shelter for people experiencing homelessness and facing barriers to maintaining housing.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.conccommunity.org/shelter-roncesvalles/",
+        "https://www.conccommunity.org/contact/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1180": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:03:01.254Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The 211 Central record describes both emergency shelter and emergency hotel shelter but lists 87 Pembroke St as its address. Street Haven's annual report distinguishes the 87 Pembroke shelter from the St. James Hotel emergency shelter at 26 Gerrard St E. The target's hotel address is supported by the operator's report."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1180",
+      "name": "Street Haven Downtown Hotel Program",
+      "phone": "1-844-967-6060",
+      "website": "https://streethaven.org/",
+      "whoServed": "Women 18+",
+      "access": "unknown",
+      "intakeNotes": "211 Central says to call for shelter intake and lists a 24-hour crisis line at 416-967-6060 ext. 224. Confirm availability and how to access the hotel program by phone; a walk-in or referral process was not verified.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Street Haven at the Crossroads operates emergency hotel shelter for women at the St. James Hotel, 26 Gerrard St E; the operator reports 47 shelter beds there. Street Haven’s shelter services provide support such as meals, clothing, and help connecting with housing and other services.",
+      "confidence": "medium",
+      "sources": [
+        "https://streethaven.org/wp-content/uploads/2025/10/Annual-Report-Final-Book-20.pdf",
+        "https://streethaven.org/wp-content/uploads/2026/01/Street-Haven-Newsletter-Winter-2026.pdf",
+        "https://211central.ca/record/75874401/",
+        "https://streethaven.org/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1187": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:52:14.477Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1187",
+      "name": "Friends of Ruby - Emergency Housing",
+      "phone": "416-338-4766 or 1-877-338-3398 (Central Intake); 311",
+      "website": "https://www.friendsofruby.ca/transitional-housing/",
+      "whoServed": "2SLGBTQIA+ youth",
+      "access": "referral",
+      "intakeNotes": "Call Toronto Central Intake or 311 and ask whether a Friends of Ruby emergency bed is available. Beds are assigned first-come, first-served; if a bed is secured, the youth has two hours to arrive. If already staying at a shelter and requesting a transfer, their case worker or shelter staff must contact Central Intake.",
+      "requirements": [
+        "Emergency suites have a two-bag limit."
+      ],
+      "transit": null,
+      "summary": "Friends of Ruby provides emergency housing beds for youth at its home for 2SLGBTQIA+ young people. Access is arranged through Toronto Central Intake and depends on bed availability.",
+      "confidence": "high",
+      "sources": [
+        "https://www.friendsofruby.ca/transitional-housing/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1189": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:48:32.823Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "Age eligibility differs: Florence Booth House's operator site describes serving women ages 16 and up, while 211 Central lists eligibility as women 18 and older. The age threshold is omitted from whoServed."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1189",
+      "name": "Florence Booth House",
+      "phone": "416-737-5448",
+      "website": "https://florenceboothhouse.com/",
+      "whoServed": "Women experiencing homelessness",
+      "access": "unknown",
+      "intakeNotes": "Call the intake line first to ask about vacancies and admission procedures.",
+      "requirements": [
+        "Must be ambulatory, according to 211 Central."
+      ],
+      "transit": null,
+      "summary": "Florence Booth House is operated by The Salvation Army and provides emergency shelter and support for women experiencing homelessness. Its temporary location is 66 Norfinch Drive while its permanent building undergoes renovations.",
+      "confidence": "medium",
+      "sources": [
+        "https://torontohhs.org/shelters/florence-booth/",
+        "https://211central.ca/record/73467900/",
+        "https://florenceboothhouse.com/our-story/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1190": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:05:20.889Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1190",
+      "name": "TSSS Downtown Response Program",
+      "phone": "416-338-4766",
+      "website": "https://www.toronto.ca/city-government/data-research-maps/research-reports/housing-and-homelessness-research-and-reports/shelter-census/",
+      "whoServed": "Men",
+      "access": "referral",
+      "intakeNotes": "Contact Toronto Central Intake to request access to emergency shelter space.",
+      "requirements": [],
+      "transit": null,
+      "summary": "This is a City of Toronto shelter program at 76 Church St serving men. Contact Toronto Central Intake for access to emergency shelter space.",
+      "confidence": "medium",
+      "sources": [
+        "https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/",
+        "https://www.toronto.ca/city-government/data-research-maps/research-reports/housing-and-homelessness-research-and-reports/shelter-census/",
+        "https://www.toronto.ca/legdocs/mmis/2025/ec/bgrd/backgroundfile-257203.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1192": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:02:41.511Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target gives postal code M4X 1L4, while 211 Central and the operator website list the shelter address as 556 Sherbourne St, Toronto, ON M4X 1L3."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1192",
+      "name": "St. Simon's Clubbe House",
+      "phone": "647-945-7292",
+      "website": "https://clubbehouse.com/",
+      "whoServed": "Men and male-identified adults 18+ who are homeless",
+      "access": "mixed",
+      "intakeNotes": "211 lists self-referral or agency referral and advises contacting the shelter directly for intake. Call the shelter intake line at 647-945-7292, extension 0, to ask about availability and next steps.",
+      "requirements": [],
+      "transit": null,
+      "summary": "St. Simon's Clubbe House is an emergency shelter for men, operated under the Clubbe House name. 211 lists mental health and addictions case management, medical support, food access, harm-reduction supports, and help finding permanent housing among its services.",
+      "confidence": "medium",
+      "sources": [
+        "https://211central.ca/record/75859485/",
+        "https://clubbehouse.com/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1193": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:51:07.768Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "Capacity figures differ: a 211 Central search excerpt reported 24 spaces, while the fetched 211 Central page metadata and 211 Ontario search result reported 36. Capacity is omitted from the profile."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1193",
+      "name": "Fred Victor Centre Fatima House",
+      "phone": "416-368-2642",
+      "website": "https://www.fredvictor.org/what-we-do/housing/shelters/",
+      "whoServed": "Women; 211 lists eligibility as women 18+ without children and notes trans-positive services.",
+      "access": "referral",
+      "intakeNotes": "For emergency shelter, Fred Victor advises calling 311 or Central Intake at 416-338-4766 (toll-free 1-877-338-3398). 211 advises calling Fatima House first for vacancy and admission details.",
+      "requirements": [
+        "211 lists eligibility as women 18+ who are homeless and without children; confirm eligibility directly."
+      ],
+      "transit": null,
+      "summary": "Fatima House is a Fred Victor-operated women’s shelter at 1059 College Street. Fred Victor describes it as accessible and pet-friendly, with meals, counselling, healthcare and housing support.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.fredvictor.org/location-information/",
+        "https://www.fredvictor.org/what-we-do/housing/shelters/",
+        "https://211central.ca/record/71706876/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1194": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:01:50.982Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1194",
+      "name": "Scarborough Women's Shelter - Milner",
+      "phone": "416-397-0322",
+      "website": null,
+      "whoServed": "Women",
+      "access": "referral",
+      "intakeNotes": "For an emergency shelter referral, call Toronto Central Intake at 416-338-4766 or 1-877-338-3398; 211 Central says there is no walk-in service. Its listing notes that intake for assaulted women's shelters is handled separately, so confirm the appropriate pathway when calling.",
+      "requirements": [],
+      "transit": null,
+      "summary": "The City of Toronto Shelter and Support Services directory lists Scarborough Women's Shelter at 20 Milner Business Court and provides 416-397-0322 as its general enquiry number. Toronto Central Intake coordinates emergency shelter referrals; confirm the correct intake route before travelling.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.toronto.ca/wp-content/uploads/2017/12/9514-shelter_support_housing.pdf",
+        "https://211central.ca/record/69800103/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1195": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:53:23.820Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1195",
+      "name": "HFS - Lawrence East Shelter",
+      "phone": null,
+      "website": null,
+      "whoServed": "Mixed adults",
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": "City records describe 4117 Lawrence Avenue East as a site acquired for a new emergency shelter. Those records name Homes First Society as the property’s owner before the City acquisition; they do not verify the current operator or provide intake details.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.toronto.ca/wp-content/uploads/2019/04/8e88-2019-097_4117-Lawrence-Ave-E.pdf",
+        "https://secure.toronto.ca/council/report.do?meeting=2019.BA47&type=minutes"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1200": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:54:43.135Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1200",
+      "name": "Placer Court Shelter",
+      "phone": "416-338-4766",
+      "website": "https://homesfirst.on.ca/hf_property/101-placer/",
+      "whoServed": "Adults of all genders, 18 and older",
+      "access": "referral",
+      "intakeNotes": "Call 311 or the City’s Central Intake line at 416-338-4766 (toll-free: 1-877-338-3398) to request shelter. Central Intake refers callers based on their needs and current availability; a bed may not be available on the first call.",
+      "requirements": [
+        "Adults 18 or older of any gender",
+        "People experiencing homelessness or who are underhoused"
+      ],
+      "transit": "Homes First lists Don Mills Station; the shelter is near Victoria Park Avenue and McNicoll Avenue.",
+      "summary": "Homes First Society operates this emergency shelter for adults of all genders. It provides temporary accommodation and supports including meals, laundry, recreational programming and case management.",
+      "confidence": "high",
+      "sources": [
+        "https://homesfirst.on.ca/hf_property/101-placer/",
+        "https://211central.ca/record/76273483/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1220": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:53:37.086Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target lists postal code M1R 2T5, while Homes First's Metro Shelter page lists M1R 2T6. Homes First's 2023 annual report lists M1R 2T5 for Metro Refugee."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1220",
+      "name": "HFS - Metro Strachan",
+      "phone": "416-214-1870",
+      "website": "https://homesfirst.on.ca/hf_property/metro-shelter/",
+      "whoServed": "Refugee claimants experiencing homelessness in Toronto",
+      "access": "referral",
+      "intakeNotes": "This is a closed-referral program; referrals are coordinated through the City of Toronto. For shelter access in Toronto, Homes First directs people to call 311 or Central Intake at 416-338-4766 (toll-free: 1-877-338-3398).",
+      "requirements": [
+        "The program serves refugee claimants experiencing homelessness in Toronto."
+      ],
+      "transit": "Homes First lists Warden Avenue and Highway 401, and York Mills Station. Confirm the route before travelling.",
+      "summary": "Homes First Society operates Metro Shelter, an emergency shelter program for refugee claimants experiencing homelessness in Toronto. It provides temporary accommodation and support services, including meals, laundry, recreational programming, and case management; referrals are coordinated through the City.",
+      "confidence": "high",
+      "sources": [
+        "https://homesfirst.on.ca/hf_property/metro-shelter/",
+        "https://homesfirst.on.ca/i-need-help/",
+        "https://homesfirst.on.ca/wp-content/uploads/2024/06/HF-Annual-Report-2023.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1280": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:58:28.331Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "For people looking for shelter space, Nellie's contact page directs callers to the Assaulted Women's Helpline at 1-866-863-0511, while the shelter page lists Nellie's crisis line as 416-461-1084. 211 Central also lists 416-461-1084 as the shelter crisis number. The listed numbers and directions differ, so call to confirm the appropriate intake contact."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1280",
+      "name": "Nellie's Women's Shelter",
+      "phone": "416-461-1084",
+      "website": "https://nellies.org/what-we-do/shelter/",
+      "whoServed": "Women 16+ with or without children who are homeless or leaving violence; Nellie's affirms inclusion of trans women and non-binary people.",
+      "access": "unknown",
+      "intakeNotes": "Call Nellie's crisis line to ask about vacancies and admission. Nellie's contact page also directs people seeking shelter space to the Assaulted Women's Helpline at 1-866-863-0511. The shelter address is not provided here; call before going.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Nellie's provides emergency shelter and support for women and their children, including services such as counselling, referrals, advocacy and housing support. The operator describes the shelter as inclusive of trans women and non-binary people.",
+      "confidence": "medium",
+      "sources": [
+        "https://nellies.org/what-we-do/shelter/",
+        "https://nellies.org/about/contact/",
+        "https://211central.ca/record/75821820/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1300": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:04:38.221Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "211 Central lists new-client registration at an intake desk at 129 Peter St., while The Scott Mission identifies its men's shelter at 346 Spadina Ave. and lists men's intake office hours without specifying the office location. Confirm the current intake location with the shelter."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1300",
+      "name": "The Scott Mission - Kensington location",
+      "phone": "647-696-1372",
+      "website": "https://scottmission.com/",
+      "whoServed": "Men 20 years and older who are homeless",
+      "access": "mixed",
+      "intakeNotes": "211 Central says walk-ins are welcome but appointments are preferred. It lists new-client registration at the Scott Mission Shelter Intake desk at 129 Peter St. or through Toronto Central Intake; the Scott Mission lists weekday men's intake office hours but does not specify the desk location. Call the shelter intake number to confirm where and how to register before going.",
+      "requirements": [],
+      "transit": null,
+      "summary": "The Scott Mission operates a men's overnight shelter at 346 Spadina Ave. 211 Central describes the service as including meals, clothing, counselling, laundry and showers.",
+      "confidence": "medium",
+      "sources": [
+        "https://scottmission.com/programs/mens-ministry/",
+        "https://scottmission.com/get-help/",
+        "https://211central.ca/record/88032373/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1320": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:46:44.414Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target identifies the program as serving “Local Families,” while COSTI’s Hostel Services page describes admissions for refugee claimants referred through the City. The available sources do not establish whether the operator page describes this specific local-families program.",
+      "COSTI’s page lists Central Intake as 416-397-5637; the City’s shelter page lists 416-338-4766. The appropriate intake number for this program is unresolved."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1320",
+      "name": "COSTI Hotel Program Dixon",
+      "phone": "416-706-9451",
+      "website": "https://www.costi.org/",
+      "whoServed": null,
+      "access": "referral",
+      "intakeNotes": "COSTI says admissions are by referral through the City of Toronto’s Central Intake. The City advises people seeking emergency shelter to contact Central Intake; confirm the correct contact number before calling.",
+      "requirements": [],
+      "transit": null,
+      "summary": "COSTI identifies its Dixon Road location as the Radisson Toronto Suites and describes its Hostel Services as providing temporary accommodation and settlement support. The operator’s description says admissions are for refugee claimants referred by the City, but this may not describe the local-families program identified in the target record.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.costi.org/programs/program_details.php?id=222&pid=13",
+        "https://www.costi.org/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1360": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:58:50.632Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1360",
+      "name": "Scarborough Progress Centre",
+      "phone": "416-396-4612",
+      "website": "https://www.toronto.ca/housing",
+      "whoServed": "Men 18 years and older in need of shelter",
+      "access": "referral",
+      "intakeNotes": "Call Toronto Central Intake at 1-877-338-3398 to access shelter. The listing says documents required: contact for information.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Toronto Shelter and Support Services operates this 24-hour emergency shelter for men. Services include case management, housing and employment assistance, health and mental-health supports, and referrals.",
+      "confidence": "medium",
+      "sources": [
+        "https://211central.ca/record/78894266/",
+        "https://torontoservicedirectory.ca/record/78894266/toronto-shelter-and-support-services-scarborough-progress-centre/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1380": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:55:32.624Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1380",
+      "name": "Homes First Society - Pacewood",
+      "phone": "416-392-6874",
+      "website": "https://www.the519.org/programs/housing-services/",
+      "whoServed": "2SLGBTQ+ newcomers age 18 or older who arrived through a refugee pathway and are making a refugee claim; prioritizes trans, gender-diverse, and non-binary people.",
+      "access": "referral",
+      "intakeNotes": "The 519 is the sole referrer and handles new intakes. Call 416-392-6874 with a brief description of the person seeking space and their situation. The 519 says it will call back only if a bed is available.",
+      "requirements": [
+        "Identify as LGBTQ+.",
+        "Be 18 or older.",
+        "Be a newcomer who arrived in Canada through a refugee pathway.",
+        "Be in the process of making a refugee claim."
+      ],
+      "transit": null,
+      "summary": "Pacewood is a 20-bed shelter operated by Homes First in partnership with The 519, serving 2SLGBTQ+ newcomers who arrived through a refugee pathway. It offers meals, laundry, programming, and case management; The 519 coordinates referrals and intake.",
+      "confidence": "high",
+      "sources": [
+        "https://www.the519.org/programs/housing-services/",
+        "https://homesfirst.on.ca/hf_property/pacewood/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1500": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:57:50.854Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1500",
+      "name": "Native Child & Family - Spadina",
+      "phone": "416-969-8510",
+      "website": "https://nativechild.org/",
+      "whoServed": "Indigenous youth",
+      "access": "unknown",
+      "intakeNotes": "The City advises people seeking emergency shelter to call 311 or Central Intake at 416-338-4766. Location-specific intake instructions for this shelter were not found.",
+      "requirements": [],
+      "transit": null,
+      "summary": "The City identifies Twin Turtles as an Indigenous youth shelter. Native Child and Family Services of Toronto lists 416-969-8510 as its contact number, but its locations page does not provide site-specific information for this shelter.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.toronto.ca/legdocs/mmis/2025/ec/bgrd/backgroundfile-260136.pdf",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+        "https://nativechild.org/about-us/locations/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1621": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:47:47.888Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [
+      "The target record gives Madison's address as 158 Madison Ave., while Covenant House's public shelter page directs youth seeking shelter to 20 Gerrard St. East. It is unclear whether 20 Gerrard is an intake point for the Madison program."
+    ],
+    "notes": "Conflicts reported — human review required before merge.",
+    "profile": {
+      "locationId": "1621",
+      "name": "Covenant House - Madison",
+      "phone": null,
+      "website": "https://covenanthousetoronto.ca/",
+      "whoServed": null,
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": "Covenant House Toronto operates youth services, and its public shelter page directs youth seeking a safe place to its 20 Gerrard St. East site. I could not verify details specific to Madison House - Refugee Youth.",
+      "confidence": "low",
+      "sources": [
+        "https://covenanthousetoronto.ca/get-help/",
+        "https://www.torontocentralhealthline.ca/displayService.aspx?id=132459"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1641": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:59:29.879Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1641",
+      "name": "Romero-Edna Lane House",
+      "phone": "416-763-1303",
+      "website": "https://romerohouse.org/",
+      "whoServed": "Recently arrived refugee claimant families",
+      "access": "mixed",
+      "intakeNotes": "Romero House’s 211 listing says to apply by phone, email or in person; half of its transitional-housing spaces require a referral through the City of Toronto’s Central Intake. Contact Romero House before visiting to confirm the process for this location.",
+      "requirements": [
+        "For transitional housing, the 211 listing says families must be recently arrived in Canada.",
+        "The 211 listing says the program serves refugee claimants, including people with refused claims; singles are not accepted for transitional housing."
+      ],
+      "transit": null,
+      "summary": "Romero House operates the 2387 Dundas Street West home as transitional housing for refugee claimant families. The operator says the building is intended to house nine families and three house coordinators.",
+      "confidence": "medium",
+      "sources": [
+        "https://romerohouse.org/edna-lane-house-project/",
+        "https://211central.ca/record/69799410/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1661": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:44:43.414Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1661",
+      "name": "CHT Thrive Transitional Shelter",
+      "phone": null,
+      "website": null,
+      "whoServed": "Refugee youth",
+      "access": "referral",
+      "intakeNotes": "The City says specialized transitional shelter programs are accessed by referral only. For help finding emergency shelter, call 311 or Central Intake at 416-338-4766; the City page does not confirm this program’s specific referral route.",
+      "requirements": [],
+      "transit": null,
+      "summary": "The target is identified as a transitional shelter program for refugee youth. The City describes specialized transitional shelter programs as referral-only, but I could not verify this location’s operator, direct contact details, or specific intake process.",
+      "confidence": "low",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1681": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:44:07.574Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1681",
+      "name": "Centre for Refugee Children - Anchor House",
+      "phone": "416-338-4766",
+      "website": "https://crcrefugee.ca/anchor-house/",
+      "whoServed": "Unaccompanied and separated refugee claimant youth, ages 16–18",
+      "access": "referral",
+      "intakeNotes": "Referrals are made through the City of Toronto’s Central Intake line at 416-338-4766. Anchor House accepts referrals as beds become available and does not maintain a waiting list.",
+      "requirements": [
+        "For unaccompanied or separated refugee claimant youth ages 16–18",
+        "Referral through the City of Toronto’s Central Intake"
+      ],
+      "transit": null,
+      "summary": "Anchor House provides emergency housing for unaccompanied and separated refugee children and youth, with 12 beds and 24/7 onsite staffing. Support includes basic needs, settlement and legal services, and help moving toward longer-term housing.",
+      "confidence": "high",
+      "sources": [
+        "https://crcrefugee.ca/anchor-house/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1701": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:56:51.946Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1701",
+      "name": "Matthew House - Dundas House",
+      "phone": "416-203-7848",
+      "website": "https://www.matthewhouse.ca/",
+      "whoServed": "Newly arrived refugee claimants",
+      "access": "unknown",
+      "intakeNotes": "211 Ontario advises contacting Matthew House for information. Call the operator to ask about intake; a walk-in or referral process was not verified.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Matthew House describes its Dundas Street West home as an initial intake shelter for newly arrived refugee claimants. The organization provides shelter and support to help residents settle and establish new lives in Canada.",
+      "confidence": "high",
+      "sources": [
+        "https://www.matthewhouse.ca/our-work1",
+        "https://www.matthewhouse.ca/contact-us",
+        "https://www.matthewhouse.ca/",
+        "https://211ontario.ca/service/69794766/agency/matthew-house-refugee-reception-services-toronto/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1721": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:43:51.714Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1721",
+      "name": "213 Carlton Street",
+      "phone": null,
+      "website": null,
+      "whoServed": "Mixed adults",
+      "access": "unknown",
+      "intakeNotes": "For help accessing emergency shelter or checking availability, contact the City of Toronto’s Central Intake at 416-338-4766 or 1-877-338-3398. Site-specific intake arrangements are unverified.",
+      "requirements": [],
+      "transit": null,
+      "summary": "213 Carlton Street is listed as a mixed-adult shelter location operated by the Canadian Mental Health Association – Toronto Branch. The available sources do not confirm site-specific eligibility or intake procedures.",
+      "confidence": "medium",
+      "sources": [
+        "https://cityinfo.ca/toronto/dataset/b63c506b-084c-42d4-96f6-de485b7f988e/records/2a870914-c268-48c8-a407-64ebf1a600ca",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/",
+        "https://www.toronto.ca/city-government/data-research-maps/research-reports/housing-and-homelessness-research-and-reports/shelter-census/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1741": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:56:31.184Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1741",
+      "name": "L'Agapanthe - Maison de transition de La Passerelle-I.D.É.",
+      "phone": "416-944-3644; 416-934-0588",
+      "website": "https://www.passerelle-ide.com/en/agapanthe",
+      "whoServed": "Francophone African refugees; a mixed-adult transitional shelter",
+      "access": "unknown",
+      "intakeNotes": null,
+      "requirements": [],
+      "transit": null,
+      "summary": "L'Agapanthe is a 50-bed transitional home at 179 Gerrard St. E. operated by La Passerelle-I.D.É. It provides culturally adapted French-language support, with a focus on Francophone African refugees.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.passerelle-ide.com/en/agapanthe",
+        "https://211ontario.ca/service/79468023/agency/la-passerelle-integration-et-developpement-economique/",
+        "https://211ontario.ca/results/?exct=1&latitude=43.6632&longitude=-79.4108&searchLocation=Toronto&topicPath=117",
+        "https://www.toronto.ca/legdocs/mmis/2025/fa/bgrd/backgroundfile-256515.pdf"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1781": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T14:02:27.553Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1781",
+      "name": "St. Felix Centre – 629 Adelaide Street West",
+      "phone": "437-290-0405",
+      "website": "https://stfelixcentre.org/our-locations/",
+      "whoServed": "Single adults 18+ of all genders",
+      "access": "referral",
+      "intakeNotes": "Referrals are made through the City of Toronto’s Central Intake. Call 416-338-4766, 1-877-338-3398, or 311; Central Intake operates 24/7 and matches callers to available shelter spaces.",
+      "requirements": [
+        "For single adults 18 and over, of all genders."
+      ],
+      "transit": null,
+      "summary": "St. Felix Centre operates this 50-bed emergency shelter for single adults of all genders. The 24/7-staffed site offers indoor accommodation, meals, case management and housing support, with referrals arranged through the City’s Central Intake.",
+      "confidence": "high",
+      "sources": [
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/about-torontos-shelter-system/developing-shelter-sites/629-adelaide-st-w/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+        "https://stfelixcentre.org/our-locations/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "1821": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:57:10.807Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "1821",
+      "name": "Matthew House - Eunice House",
+      "phone": "416-203-7848",
+      "website": "https://www.matthewhouse.ca/",
+      "whoServed": "Refugee claimants; family eligibility for this location is not independently confirmed",
+      "access": "referral",
+      "intakeNotes": "City information says transitional shelter programs are accessed by referral only. Contact Matthew House or Toronto Central Intake to confirm the referral route before travelling to the shelter.",
+      "requirements": [],
+      "transit": null,
+      "summary": "Matthew House Toronto provides shelter and support for refugee claimants. This target is identified as its Eunice House transitional shelter program, but public sources reviewed did not confirm location-specific eligibility or intake details.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.matthewhouse.ca/",
+        "https://www.matthewhouse.ca/contact-us",
+        "https://211ontario.ca/service/69794766/agency/matthew-house-refugee-reception-services-toronto/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/shelters/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  },
+  "2041": {
+    "status": "pending_review",
+    "generatedAt": "2026-11-12T13:49:53.577Z",
+    "sourceAccessDate": "2026-11-12",
+    "model": "openai/gpt-6-luna",
+    "conflicts": [],
+    "notes": null,
+    "profile": {
+      "locationId": "2041",
+      "name": "FCJ - Indian Rd",
+      "phone": "416-338-4766 (City of Toronto Central Intake)",
+      "website": "https://www.fcjrefugeecentre.org/shelter/",
+      "whoServed": "Recently arrived refugee women and their children",
+      "access": "referral",
+      "intakeNotes": "For emergency shelter space, call City of Toronto Central Intake at 416-338-4766, 1-877-338-3398, or 311. Central Intake assesses needs and refers callers to available accommodation; a particular placement is not guaranteed.",
+      "requirements": [],
+      "transit": null,
+      "summary": "FCJ Refugee Centre operates transitional housing for recently arrived women and children, with temporary accommodation and settlement support. For emergency shelter space, contact City of Toronto Central Intake to ask about available referrals.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.fcjrefugeecentre.org/shelter/",
+        "https://www.fcjrefugeecentre.org/emergency-phone-numbers-and-other-resources/",
+        "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+      ],
+      "lastReviewed": "2026-11-12"
+    }
+  }
+}

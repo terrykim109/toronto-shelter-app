@@ -1,3 +1,21 @@
+export type ShelterAccess = "walk-in" | "referral" | "mixed" | "unknown";
+
+export type ShelterProfile = {
+  locationId: string;
+  name: string;
+  phone: string | null;
+  website: string | null;
+  whoServed: string | null;
+  access: ShelterAccess;
+  intakeNotes: string | null;
+  requirements: string[];
+  transit: string | null;
+  summary: string | null;
+  confidence: "high" | "medium" | "low";
+  sources: string[];
+  lastReviewed: string;
+};
+
 export type Shelter = {
   LOCATION_ID?: string | number;
   LOCATION_NAME: string;
@@ -11,9 +29,11 @@ export type Shelter = {
   PROGRAM_AREA?: string;
   OCCUPANCY_DATE?: string;
   SECTOR?: string;
+  OVERNIGHT_SERVICE_TYPE?: string;
   lat: number | null;
   lon: number | null;
   fsa?: string | null;
+  profile?: ShelterProfile | null;
 };
 
 export type GeocodeResult = {

@@ -5,3 +5,5 @@ client/dist
 *.log
 .env
 .env.*
+!.env.example
+data/chat-messages.json

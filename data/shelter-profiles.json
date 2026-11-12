@@ -1,0 +1,217 @@
+{
+  "1001": {
+    "locationId": "1001",
+    "name": "Red Door Family Shelter",
+    "phone": "416-863-0511",
+    "website": "https://www.reddoorshelter.ca/",
+    "whoServed": "Families / women with children",
+    "access": "referral",
+    "intakeNotes": "Family shelter — call Red Door or Central Intake (416-338-4766 / 311) for referral. Spaces are limited.",
+    "requirements": [
+      "Homeless families, including refugee families and women with children fleeing abuse",
+      "Confirm current address and program site when referred — listings can change"
+    ],
+    "transit": "Depends on active program site; ask intake for the best TTC route",
+    "summary": "Red Door supports families and women with children who need emergency shelter, including people fleeing domestic abuse and some newcomer families.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.reddoorshelter.ca/",
+      "https://nipost.org/shelters/",
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1008": {
+    "locationId": "1008",
+    "name": "TSSS Seaton House",
+    "phone": "416-392-5547",
+    "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/",
+    "whoServed": "Men",
+    "access": "referral",
+    "intakeNotes": "City-operated Seaton House programs (including harm-reduction Annex services). Call Central Intake at 416-338-4766 or 311 for referral to available men’s beds.",
+    "requirements": [
+      "Primarily men; some programs support people with complex mental health or substance-use needs",
+      "Referral through Central Intake is the usual path"
+    ],
+    "transit": "George Street near Dundas / Sherbourne; bus and streetcar nearby",
+    "summary": "Seaton House is a large City-operated men’s shelter site with specialized programs, including harm-reduction supports. Start with Central Intake for a bed tonight.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+      "https://www.camh.ca/-/media/health-info-files/community-resource-sheets/shelters-toronto-pdf.pdf"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1022": {
+    "locationId": "1022",
+    "name": "Good Shepherd Centre",
+    "phone": "416-869-3619",
+    "website": "https://www.goodshepherd.ca/",
+    "whoServed": "Men 18+",
+    "access": "mixed",
+    "intakeNotes": "Overnight shelter for men. Call the centre or Central Intake (416-338-4766) for referral and hours.",
+    "requirements": [
+      "Homeless or disadvantaged men 18 and older",
+      "Ask about ID and belongings when you call"
+    ],
+    "transit": "Queen streetcar near Queen and Parliament / Sherbourne",
+    "summary": "Good Shepherd Centre on Queen Street East provides overnight shelter and supports for men experiencing homelessness.",
+    "confidence": "medium",
+    "sources": [
+      "https://nipost.org/shelters/",
+      "https://www.goodshepherd.ca/",
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1026": {
+    "locationId": "1026",
+    "name": "Covenant House Gerrard St E",
+    "phone": "416-593-4849",
+    "website": "https://www.covenanthousetoronto.ca/",
+    "whoServed": "Youth 16–24",
+    "access": "mixed",
+    "intakeNotes": "Call intake or visit Covenant House for screening. Crisis line also available at 1-800-435-7308. Also call City Central Intake at 416-338-4766 for shelter referral.",
+    "requirements": [
+      "Serves youth ages 16–24",
+      "Wheelchair access available — call for details",
+      "Documents may vary; ask intake what to bring"
+    ],
+    "transit": "Near Dundas Station / Yonge–Dundas area; streetcar and subway nearby",
+    "summary": "Youth emergency shelter on Gerrard Street East with food, clothing, medical care, counselling, and help toward housing, school, and work. Open to young people including survivors of trafficking or sexual exploitation.",
+    "confidence": "high",
+    "sources": [
+      "https://211central.ca/record/75496026/",
+      "https://www.covenanthousetoronto.ca/",
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1037": {
+    "locationId": "1037",
+    "name": "SA Gateway",
+    "phone": "416-368-0324",
+    "website": "https://www.salvationarmy.ca/",
+    "whoServed": "Men 21+",
+    "access": "mixed",
+    "intakeNotes": "Men’s hostel with drop-in supports. Call Gateway or Central Intake (416-338-4766) for shelter beds.",
+    "requirements": [
+      "Shelter program for men 21+",
+      "Drop-in may have separate hours and age rules — ask when you call"
+    ],
+    "transit": "Near Jarvis and Queen; streetcar nearby",
+    "summary": "Salvation Army Gateway on Jarvis Street offers men’s hostel beds and drop-in supports for people who are homeless or under-housed.",
+    "confidence": "medium",
+    "sources": [
+      "https://nipost.org/shelters/",
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1045": {
+    "locationId": "1045",
+    "name": "Street Haven",
+    "phone": "416-967-6060",
+    "website": "https://www.streethaven.com/",
+    "whoServed": "Women 16+",
+    "access": "mixed",
+    "intakeNotes": "Emergency hostel for women in crisis. Call the shelter or City Central Intake (416-338-4766) for bed availability and referral.",
+    "requirements": [
+      "Single women 16+ in crisis, including homelessness, violence, addiction, or mental-health challenges",
+      "Ask staff about ID and belongings rules"
+    ],
+    "transit": "Near Dundas / Sherbourne area; TTC bus and streetcar nearby",
+    "summary": "Women’s emergency hostel on Pembroke Street for people facing homelessness, violence, trauma, or addiction. Offers a place to stay and crisis supports.",
+    "confidence": "medium",
+    "sources": [
+      "https://nipost.org/shelters/",
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1048": {
+    "locationId": "1048",
+    "name": "SVDP Mary's Home",
+    "phone": "416-595-1578",
+    "website": "https://svdptoronto.org/",
+    "whoServed": "Women 16+",
+    "access": "mixed",
+    "intakeNotes": "Emergency shelter for single homeless women. Call ahead or use Central Intake (416-338-4766) to check space.",
+    "requirements": [
+      "Single homeless women 16 and older",
+      "Confirm current intake process by phone"
+    ],
+    "transit": "Near Yonge–Dundas / Gerrard; subway and streetcar nearby",
+    "summary": "St. Vincent de Paul Mary’s Home is an emergency shelter for single homeless women on Gerrard Street East.",
+    "confidence": "medium",
+    "sources": [
+      "https://nipost.org/shelters/",
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1057": {
+    "locationId": "1057",
+    "name": "Maxwell Meighen Centre",
+    "phone": "416-366-2733",
+    "website": "https://www.salvationarmy.ca/",
+    "whoServed": "Men 18+",
+    "access": "mixed",
+    "intakeNotes": "Salvation Army men’s hostel. Call the site or Central Intake (416-338-4766) about beds and intake.",
+    "requirements": [
+      "Men 18+ who can manage stairs / ambulatory programs — confirm accessibility needs by phone",
+      "Bring ID if you have it"
+    ],
+    "transit": "Near Sherbourne and Queen; streetcar and bus routes nearby",
+    "summary": "Salvation Army Maxwell Meighen Centre is a men’s hostel on Sherbourne Street with emergency overnight beds.",
+    "confidence": "medium",
+    "sources": [
+      "https://nipost.org/shelters/",
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1059": {
+    "locationId": "1059",
+    "name": "Sojourn House Ontario St",
+    "phone": "416-864-0515",
+    "website": "https://www.sojournhouse.org/",
+    "whoServed": "Refugees and refugee claimants",
+    "access": "referral",
+    "intakeNotes": "Shelter for refugees and refugee claimants (singles and families). Call Sojourn House extensions for intake, or Central Intake (416-338-4766).",
+    "requirements": [
+      "Refugees / refugee claimants — singles and families",
+      "Ask which documents help with intake"
+    ],
+    "transit": "Near Queen and Ontario / downtown east; streetcar nearby",
+    "summary": "Sojourn House on Ontario Street provides emergency shelter and support for refugees and refugee claimants, including single people and families.",
+    "confidence": "medium",
+    "sources": [
+      "https://nipost.org/shelters/",
+      "https://www.sojournhouse.org/",
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/"
+    ],
+    "lastReviewed": "2026-11-12"
+  },
+  "1070": {
+    "locationId": "1070",
+    "name": "TSSS Birkdale Residence",
+    "phone": "416-338-4766",
+    "website": "https://www.toronto.ca/community-people/housing-shelter/homeless-help/",
+    "whoServed": "Families / women with children",
+    "access": "referral",
+    "intakeNotes": "City family residence in Scarborough. Call Central Intake (416-338-4766) or 311 for referral — do not assume walk-in beds.",
+    "requirements": [
+      "Homeless women with children / family households — confirm eligibility with intake",
+      "Referral-based placement"
+    ],
+    "transit": "Near Ellesmere Road in Scarborough; TTC bus connections",
+    "summary": "Birkdale Residence is a City shelter program for families. Placement normally goes through Central Intake.",
+    "confidence": "low",
+    "sources": [
+      "https://www.toronto.ca/community-people/housing-shelter/homeless-help/central-intake/",
+      "https://nipost.org/shelters/"
+    ],
+    "lastReviewed": "2026-11-12"
+  }
+}
